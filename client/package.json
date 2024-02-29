@@ -1,0 +1,22 @@
+{
+	"name": "ies-syntax-highlighter-client",
+	"description": "Client component of IES language server for vscode.",
+	"author": "Telicent Ltd",
+	"license": "Apache-2.0",
+	"version": "1.0.0",
+	"publisher": "Telicent",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Telicent-io/ies-ext"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"scripts": {},
+	"dependencies": {
+		"vscode-languageclient": "^7.0.0"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.52.0"
+	}
+}

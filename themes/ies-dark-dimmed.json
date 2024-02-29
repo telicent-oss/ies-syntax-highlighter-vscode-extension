@@ -1,0 +1,7641 @@
+{
+  "name": "GitHub Dark Dimmed",
+  "colors": {
+    "focusBorder": "#316dca",
+    "foreground": "#adbac7",
+    "descriptionForeground": "#768390",
+    "errorForeground": "#e5534b",
+    "textLink.foreground": "#539bf5",
+    "textLink.activeForeground": "#539bf5",
+    "textBlockQuote.background": "#1c2128",
+    "textBlockQuote.border": "#444c56",
+    "textCodeBlock.background": "#636e7b66",
+    "textPreformat.foreground": "#768390",
+    "textSeparator.foreground": "#373e47",
+    "icon.foreground": "#768390",
+    "keybindingLabel.foreground": "#adbac7",
+    "button.background": "#347d39",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#46954a",
+    "button.secondaryBackground": "#3d444d",
+    "button.secondaryForeground": "#adbac7",
+    "button.secondaryHoverBackground": "#444c56",
+    "checkbox.background": "#2d333b",
+    "checkbox.border": "#444c56",
+    "dropdown.background": "#2d333b",
+    "dropdown.border": "#444c56",
+    "dropdown.foreground": "#adbac7",
+    "dropdown.listBackground": "#2d333b",
+    "input.background": "#22272e",
+    "input.border": "#444c56",
+    "input.foreground": "#adbac7",
+    "input.placeholderForeground": "#636e7b",
+    "badge.foreground": "#cdd9e5",
+    "badge.background": "#316dca",
+    "progressBar.background": "#316dca",
+    "titleBar.activeForeground": "#768390",
+    "titleBar.activeBackground": "#22272e",
+    "titleBar.inactiveForeground": "#768390",
+    "titleBar.inactiveBackground": "#1c2128",
+    "titleBar.border": "#444c56",
+    "activityBar.foreground": "#adbac7",
+    "activityBar.inactiveForeground": "#768390",
+    "activityBar.background": "#22272e",
+    "activityBarBadge.foreground": "#cdd9e5",
+    "activityBarBadge.background": "#316dca",
+    "activityBar.activeBorder": "#ec775c",
+    "activityBar.border": "#444c56",
+    "sideBar.foreground": "#adbac7",
+    "sideBar.background": "#1c2128",
+    "sideBar.border": "#444c56",
+    "sideBarTitle.foreground": "#adbac7",
+    "sideBarSectionHeader.foreground": "#adbac7",
+    "sideBarSectionHeader.background": "#1c2128",
+    "sideBarSectionHeader.border": "#444c56",
+    "list.hoverForeground": "#adbac7",
+    "list.inactiveSelectionForeground": "#adbac7",
+    "list.activeSelectionForeground": "#adbac7",
+    "list.hoverBackground": "#636e7b1a",
+    "list.inactiveSelectionBackground": "#636e7b66",
+    "list.activeSelectionBackground": "#636e7b66",
+    "list.focusForeground": "#adbac7",
+    "list.focusBackground": "#4184e426",
+    "list.inactiveFocusBackground": "#4184e426",
+    "list.highlightForeground": "#539bf5",
+    "tree.indentGuidesStroke": "#373e47",
+    "notificationCenterHeader.foreground": "#768390",
+    "notificationCenterHeader.background": "#2d333b",
+    "notifications.foreground": "#adbac7",
+    "notifications.background": "#2d333b",
+    "notifications.border": "#444c56",
+    "notificationsErrorIcon.foreground": "#e5534b",
+    "notificationsWarningIcon.foreground": "#c69026",
+    "notificationsInfoIcon.foreground": "#539bf5",
+    "pickerGroup.border": "#444c56",
+    "pickerGroup.foreground": "#768390",
+    "quickInput.background": "#2d333b",
+    "quickInput.foreground": "#adbac7",
+    "statusBar.foreground": "#768390",
+    "statusBar.background": "#22272e",
+    "statusBar.border": "#444c56",
+    "statusBar.focusBorder": "#316dca80",
+    "statusBar.noFolderBackground": "#22272e",
+    "statusBar.debuggingForeground": "#cdd9e5",
+    "statusBar.debuggingBackground": "#c93c37",
+    "statusBarItem.prominentBackground": "#636e7b66",
+    "statusBarItem.remoteForeground": "#adbac7",
+    "statusBarItem.remoteBackground": "#444c56",
+    "statusBarItem.hoverBackground": "#adbac714",
+    "statusBarItem.activeBackground": "#adbac71f",
+    "statusBarItem.focusBorder": "#316dca",
+    "editorGroupHeader.tabsBackground": "#1c2128",
+    "editorGroupHeader.tabsBorder": "#444c56",
+    "editorGroup.border": "#444c56",
+    "tab.activeForeground": "#adbac7",
+    "tab.inactiveForeground": "#768390",
+    "tab.inactiveBackground": "#1c2128",
+    "tab.activeBackground": "#22272e",
+    "tab.hoverBackground": "#22272e",
+    "tab.unfocusedHoverBackground": "#636e7b1a",
+    "tab.border": "#444c56",
+    "tab.unfocusedActiveBorderTop": "#444c56",
+    "tab.activeBorder": "#22272e",
+    "tab.unfocusedActiveBorder": "#22272e",
+    "tab.activeBorderTop": "#ec775c",
+    "breadcrumb.foreground": "#768390",
+    "breadcrumb.focusForeground": "#adbac7",
+    "breadcrumb.activeSelectionForeground": "#768390",
+    "breadcrumbPicker.background": "#2d333b",
+    "editor.foreground": "#adbac7",
+    "editor.background": "#22272e",
+    "editorWidget.background": "#2d333b",
+    "editor.foldBackground": "#636e7b1a",
+    "editor.lineHighlightBackground": "#636e7b1a",
+    "editorLineNumber.foreground": "#636e7b",
+    "editorLineNumber.activeForeground": "#adbac7",
+    "editorIndentGuide.background": "#adbac71f",
+    "editorIndentGuide.activeBackground": "#adbac73d",
+    "editorWhitespace.foreground": "#545d68",
+    "editorCursor.foreground": "#539bf5",
+    "editor.findMatchBackground": "#966600",
+    "editor.findMatchHighlightBackground": "#eac55f80",
+    "editor.linkedEditingBackground": "#539bf512",
+    "editor.selectionHighlightBackground": "#57ab5a40",
+    "editor.wordHighlightBackground": "#636e7b80",
+    "editor.wordHighlightBorder": "#636e7b99",
+    "editor.wordHighlightStrongBackground": "#636e7b4d",
+    "editor.wordHighlightStrongBorder": "#636e7b99",
+    "editorBracketMatch.background": "#57ab5a40",
+    "editorBracketMatch.border": "#57ab5a99",
+    "editorInlayHint.background": "#76839033",
+    "editorInlayHint.foreground": "#768390",
+    "editorInlayHint.typeBackground": "#76839033",
+    "editorInlayHint.typeForeground": "#768390",
+    "editorInlayHint.paramBackground": "#76839033",
+    "editorInlayHint.paramForeground": "#768390",
+    "editorGutter.modifiedBackground": "#ae7c1466",
+    "editorGutter.addedBackground": "#46954a66",
+    "editorGutter.deletedBackground": "#e5534b66",
+    "diffEditor.insertedLineBackground": "#347d3926",
+    "diffEditor.insertedTextBackground": "#57ab5a4d",
+    "diffEditor.removedLineBackground": "#c93c3726",
+    "diffEditor.removedTextBackground": "#f470674d",
+    "scrollbar.shadow": "#545d6833",
+    "scrollbarSlider.background": "#76839033",
+    "scrollbarSlider.hoverBackground": "#7683903d",
+    "scrollbarSlider.activeBackground": "#76839047",
+    "editorOverviewRuler.border": "#1c2128",
+    "minimapSlider.background": "#76839033",
+    "minimapSlider.hoverBackground": "#7683903d",
+    "minimapSlider.activeBackground": "#76839047",
+    "panel.background": "#1c2128",
+    "panel.border": "#444c56",
+    "panelTitle.activeBorder": "#ec775c",
+    "panelTitle.activeForeground": "#adbac7",
+    "panelTitle.inactiveForeground": "#768390",
+    "panelInput.border": "#444c56",
+    "debugIcon.breakpointForeground": "#e5534b",
+    "debugConsole.infoForeground": "#768390",
+    "debugConsole.warningForeground": "#c69026",
+    "debugConsole.errorForeground": "#ff938a",
+    "debugConsole.sourceForeground": "#daaa3f",
+    "debugConsoleInputIcon.foreground": "#b083f0",
+    "debugTokenExpression.name": "#6cb6ff",
+    "debugTokenExpression.value": "#96d0ff",
+    "debugTokenExpression.string": "#96d0ff",
+    "debugTokenExpression.boolean": "#6bc46d",
+    "debugTokenExpression.number": "#6bc46d",
+    "debugTokenExpression.error": "#ff938a",
+    "symbolIcon.arrayForeground": "#e0823d",
+    "symbolIcon.booleanForeground": "#539bf5",
+    "symbolIcon.classForeground": "#e0823d",
+    "symbolIcon.colorForeground": "#6cb6ff",
+    "symbolIcon.constructorForeground": "#dcbdfb",
+    "symbolIcon.enumeratorForeground": "#e0823d",
+    "symbolIcon.enumeratorMemberForeground": "#539bf5",
+    "symbolIcon.eventForeground": "#636e7b",
+    "symbolIcon.fieldForeground": "#e0823d",
+    "symbolIcon.fileForeground": "#c69026",
+    "symbolIcon.folderForeground": "#c69026",
+    "symbolIcon.functionForeground": "#b083f0",
+    "symbolIcon.interfaceForeground": "#e0823d",
+    "symbolIcon.keyForeground": "#539bf5",
+    "symbolIcon.keywordForeground": "#f47067",
+    "symbolIcon.methodForeground": "#b083f0",
+    "symbolIcon.moduleForeground": "#f47067",
+    "symbolIcon.namespaceForeground": "#f47067",
+    "symbolIcon.nullForeground": "#539bf5",
+    "symbolIcon.numberForeground": "#57ab5a",
+    "symbolIcon.objectForeground": "#e0823d",
+    "symbolIcon.operatorForeground": "#6cb6ff",
+    "symbolIcon.packageForeground": "#e0823d",
+    "symbolIcon.propertyForeground": "#e0823d",
+    "symbolIcon.referenceForeground": "#539bf5",
+    "symbolIcon.snippetForeground": "#539bf5",
+    "symbolIcon.stringForeground": "#6cb6ff",
+    "symbolIcon.structForeground": "#e0823d",
+    "symbolIcon.textForeground": "#6cb6ff",
+    "symbolIcon.typeParameterForeground": "#6cb6ff",
+    "symbolIcon.unitForeground": "#539bf5",
+    "symbolIcon.variableForeground": "#e0823d",
+    "symbolIcon.constantForeground": [
+      "#b4f1b4",
+      "#8ddb8c",
+      "#6bc46d",
+      "#57ab5a",
+      "#46954a",
+      "#347d39",
+      "#2b6a30",
+      "#245829",
+      "#1b4721",
+      "#113417"
+    ],
+    "terminal.foreground": "#adbac7",
+    "terminal.ansiBlack": "#545d68",
+    "terminal.ansiRed": "#f47067",
+    "terminal.ansiGreen": "#57ab5a",
+    "terminal.ansiYellow": "#c69026",
+    "terminal.ansiBlue": "#539bf5",
+    "terminal.ansiMagenta": "#b083f0",
+    "terminal.ansiCyan": "#39c5cf",
+    "terminal.ansiWhite": "#909dab",
+    "terminal.ansiBrightBlack": "#636e7b",
+    "terminal.ansiBrightRed": "#ff938a",
+    "terminal.ansiBrightGreen": "#6bc46d",
+    "terminal.ansiBrightYellow": "#daaa3f",
+    "terminal.ansiBrightBlue": "#6cb6ff",
+    "terminal.ansiBrightMagenta": "#dcbdfb",
+    "terminal.ansiBrightCyan": "#56d4dd",
+    "terminal.ansiBrightWhite": "#cdd9e5",
+    "editorBracketHighlight.foreground1": "#6cb6ff",
+    "editorBracketHighlight.foreground2": "#6bc46d",
+    "editorBracketHighlight.foreground3": "#daaa3f",
+    "editorBracketHighlight.foreground4": "#ff938a",
+    "editorBracketHighlight.foreground5": "#fc8dc7",
+    "editorBracketHighlight.foreground6": "#dcbdfb",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#768390",
+    "gitDecoration.addedResourceForeground": "#57ab5a",
+    "gitDecoration.modifiedResourceForeground": "#c69026",
+    "gitDecoration.deletedResourceForeground": "#e5534b",
+    "gitDecoration.untrackedResourceForeground": "#57ab5a",
+    "gitDecoration.ignoredResourceForeground": "#636e7b",
+    "gitDecoration.conflictingResourceForeground": "#cc6b2c",
+    "gitDecoration.submoduleResourceForeground": "#768390",
+    "debugToolBar.background": "#2d333b",
+    "editor.stackFrameHighlightBackground": "#ae7c1466",
+    "editor.focusedStackFrameHighlightBackground": "#46954a66",
+    "peekViewEditor.matchHighlightBackground": "#ae7c1466",
+    "peekViewResult.matchHighlightBackground": "#ae7c1466",
+    "peekViewEditor.background": "#636e7b1a",
+    "peekViewResult.background": "#22272e",
+    "settings.headerForeground": "#adbac7",
+    "settings.modifiedItemIndicator": "#ae7c1466",
+    "welcomePage.buttonBackground": "#373e47",
+    "welcomePage.buttonHoverBackground": "#444c56"
+  },
+  "semanticHighlighting": true,
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.comment"
+      ],
+      "settings": {
+        "foreground": "#768390"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.placeholder",
+        "constant.character"
+      ],
+      "settings": {
+        "foreground": "#f47067"
+      }
+    },
+    {
+      "scope": "string.quoted.double.ttl",
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "scope": "a.ttl",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "scope": "entity.name.after-colon.ttl",
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "scope": "entity.name.before-colon.ttl",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "scope": "comment.line.ttl",
+      "settings": {
+        "foreground": "#608B4E"
+      }
+    },
+    {
+      "scope": "entity.name.uri.ttl",
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "scope": "prefix-at.ttl",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "entity.name.function.rdf",
+      "settings": {
+        "foreground": "#fcc4fc"
+      }
+    },
+    {
+      "scope": "entity.name.function.rdfs",
+      "settings": {
+        "foreground": "#fcc4fc"
+      }
+    },
+    {
+      "scope": "keyword.name.ies",
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ContinuousState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.BoundingState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CoLocation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Meeting",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Attendance",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.MeetingChair",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Role",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.BoundingState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ContinuousState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EntertainmentEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ContinuousState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.BoundingState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Movement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ContinuousState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Arrival",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.DeathState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Departure",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.BirthState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.BoundingState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.BoundingState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ContinuousState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.DiscontinuousState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfIndividualDocument",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.System",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.NamingScheme",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.WorkOfDocumentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ParticularPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.TimeBoundedClass",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfState",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEvent",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.DatabaseRow",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DatabaseItem",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DatabaseTable",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Database",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DataObject",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfIndividualDocument",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.WorkOfDocumentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.SecurityLabel",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.System",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangePayload",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.GroupOfItems",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInSeconds",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Duration",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ArbitraryPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.ParticularPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.RecurringPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Language",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfRepresentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.GeoRepresentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ContentCategory",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfIndividualDocument",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.WorkOfDocumentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Arrested",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ArrestingOfficer",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Arrest",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.MeasureRange",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInMoles",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInKelvin",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInAmperes",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInSeconds",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInKilograms",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInCandela",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInMetres",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.StandardMeasureValue",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.UnitOfMeasure",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfMeasureValue",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Measure",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.LuminousIntensity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.AmountOfSubstance",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Temperature",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ElectricCurrent",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Duration",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Mass",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Length",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.MeasureValue",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.StandardMeasure",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Colour",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Characteristic",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Tendency",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Capability",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfState",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEvent",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DispositionalClass",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PartNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.OperatingSystem",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Software",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ModelOfDevice",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.System",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DeviceState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.IMEI",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.SerialNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.SIMCard",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonalRadioHandset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IPPhoneHandset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CBRadioHandset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.LandlineHandset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.SatellitePhoneHandset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.MobileHandset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsDevice",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IPv6Address",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IPv4Address",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Country",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TelephoneCountryCode",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccountState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DeviceState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.TelephoneNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.MACAddress",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IMSI",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.EmailAddress",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IPAddress",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Callsign",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccountState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DeviceState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.TelephoneNumberRange",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DomainName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IPAddressRange",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsIdentifierRange",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.GeoRepresentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DataKey",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ObjectName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DatabaseRow",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DatabaseTable",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DatabaseItem",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Database",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.MediaFile",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.SchemaObject",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.GeoObject",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DataObject",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ParticularPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.DocumentFormat",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocumentID",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IdentityDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.WorkOfDocumentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.URL",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ReferenceNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Title",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Warrant",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Book",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Report",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RoomNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.PartOfFacility",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Altitude",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInMetres",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Length",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.PointOnEarthSurface",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Longitude",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Latitude",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.GeoPoint",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.GML",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ISO19125-WKT",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.GeoJSON",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.GeoRepresentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.RealEstate",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PlaceName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.FirstLineOfAddress",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.PostalCode",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.TOID",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.What3words",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.GeoIdentity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ICAOCode",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IATACode",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.UN_LOCODE",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Airport",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Port",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Facility",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Address",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RegionOfCountry",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RegionOfWorld",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.GeographicFeature",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ISO3166_1Alpha_3",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Country",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfOnlineService",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccountState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ServiceName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ScreenName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Username",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.BoundingState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ParticularPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Cookie",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountHolder",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ContentCategory",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.WebResourceState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.LiveCast",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineLike",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineComment",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.SocialMediaPost",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.SocialMediaPage",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Account",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineArtefact",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.WebResource",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.URL",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Webpage",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineService",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.JointAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfFinancialAccount",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountHolder",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Bank",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.BankBranch",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.DiscontinuousState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Account",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Country",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CustomerIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IBAN",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.BranchCode",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.FinancialAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonHeight",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInMetres",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Length",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.LanguageProficiency",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ISO639-3Code",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Language",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Ethnicity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Gender",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.SubjectOfInterest",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.NamingScheme",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Religion",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Nickname",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Surname",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.GivenName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Nation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DeathState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.BirthState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonTitle",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ParticularPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelService",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocumentID",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.EntertainmentEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.FerryTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TrainTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.FlightTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ConcertTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.FootballMatchTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CinemaTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TheatreTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Port",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Facility",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EntertainmentTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Ticket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RegionOfCountry",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfPaymentArtefact",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CardNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ParticularPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Address",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Country",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.FinancialAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DebitCard",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CreditCard",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelCard",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.StoreCard",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.BankCard",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PaymentArtefact",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AssetState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Colour",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.VehicleIdentificationNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.VehicleState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Country",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.VehicleName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Ship",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Aircraft",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RoadVehicle",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RegistrationNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Vehicle",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Assessor",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.AssessToBeTrue",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.CriminalOrganisation",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.LawEnforcementOrganisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.NamingScheme",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.OrganisationState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ISO3166_1Alpha_3",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Nation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RegionalConstituency",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Government",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EducationalOrganisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ReligiousOrganisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TerroristOrganisation",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.MilitaryOrganisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IntelligenceAgency",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.NotForProfitOrganisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CommercialOrganisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.GovernmentOrganisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Country",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OrganisationName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfTravelVisa",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Gender",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ParticularPeriod",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.Nation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocumentID",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Address",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RegionOfCountry",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Country",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.SocialServicesIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.HealthServiceIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelVisa",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Passport",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.NationalIdentityNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.NationalIdentityCard",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DrivingLicence",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.BirthCertificate",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IdentityDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Country",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ISO639-3Code",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Currency",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AmountOfMoney",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.System",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Religion",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AmountOfMoney",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RealEstate",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Account",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.WebResource",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Vehicle",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Ticket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PaymentArtefact",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IdentityDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.FinancialAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsDevice",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ValueInKilograms",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Mass",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Nation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Rights",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Colour",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RealEstate",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AmountOfMoney",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Vehicle",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PaymentArtefact",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.AssetState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.VoipAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.LandlineTelephoneAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.MobileTelephoneAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EmailAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TelephoneNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IMSI",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.EmailAddress",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.TelephoneAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountHolder",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccountState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Account",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CustomerIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.DeviceState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OrganisationalRole",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Role",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PostState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.InPost",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Post",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelReservation",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Purchase",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TradedAsset",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.TradeEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Reservation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Rights",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfTravelBooking",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.BookingReference",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.BookedPassenger",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.BookingPayment",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.AmountOfMoney",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.BookingAgent",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelBooking",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.BoardingCardNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.SeatNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.PassengerName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelServiceIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.CheckIn",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.IdUsedInCheckIn",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.IdentityDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnJourney",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EntityInTransit",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Ship",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Aircraft",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RoadVehicle",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.VehicleUsed",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Vehicle",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.VehicleController",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonInTransit",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.CarTravel",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Airport",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Moving",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Movement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Passenger",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelLeg",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Transit",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Departure",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Arrival",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.BoundingState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Facility",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Journey",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Port",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TrainTravel",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Sailing",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Flight",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelService",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfMoneyTransfer",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.BankBranch",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountHolder",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.AmountOfMoney",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Account",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AdministeredAccount",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ReceivingAccount",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.SendingAccount",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.MoneyTransfer",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.FinancialAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.UpdateAccount",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.CloseAccount",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OpenAccount",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountAdminEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.BusinessEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonInCommunication",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.PartyInCommunication",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Account",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AccountInCommunication",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccountState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsDevice",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DeviceInCommunication",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DeviceState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ConferenceHost",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ServiceProvider",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ConferenceParticipant",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.VideoConference",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TeleConference",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Callee",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Caller",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Recipient",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Sender",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.CommunicationsIdentifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.VoiceCall",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.InteractiveCommunication",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.SMS",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Message",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Communication",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.BoundingState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Modifier",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Destroyer",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Creator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Destroyed",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Created",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Customer",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Forgery",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.FoundOrganisation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Destroy",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Modify",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Create",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.LifecycleEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EventState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.LeadInvestigator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Investigator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Operator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.SubjectOfOperation",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Reconnaisance",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.MilitaryEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Investigation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.SurveillanceWarrant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EvidentialPhotograph",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Surveillance",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.IntelligenceOperation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OperationalEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PeaceTreaty",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Treaty",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ObserverStatus",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.VotingAttendee",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Summit",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.IncumbentRepresentative",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.WinningCandidate",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ElectoralRegion",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ElectoralCandidate",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Election",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.IncomingGovernment",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.OutgoingGovernment",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Government",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DemocraticChangeOfGovernment",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ChangeOfGovernment",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.DeclaredTarget",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.DeclaringParty",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.RegionalConstituency",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Nation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PolicyAnnouncement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.DeclarationOfWar",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PoliticalAnnouncement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TradeAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PoliticalAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PoliticalEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Purchase",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PartyInCommunication",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Cooperation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Competition",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.CheckIn",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Disagreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.AgreementStage",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Movement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TradeEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.CoLocation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EntertainmentEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PoliticalEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.LawEnforcement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.CriminalActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OperationalEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.LifecycleEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Communication",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.BusinessEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelService",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelBooking",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Message",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineArtefactInEvent",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.DeviceOnline",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.CreatedContent",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.LiveCast",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineLike",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineComment",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.SocialMediaPost",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.SocialMediaPage",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineArtefact",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Created",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Webpage",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Create",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.LifecycleEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineContentEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Logoff",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineContentCreation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.DiscontinuousState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Account",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccountInUse",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineService",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Notify",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Logon",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Attendance",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.NamingScheme",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.MeetingChair",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Meeting",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Ticket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TicketUsedInCheckIn",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.IdUsedInCheckIn",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.IdentityDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CheckIn",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Presence",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CoLocation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EntertainmentEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Rights",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PartNumber",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfDevice",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ModelOfDevice",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfAsset",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ReceivingAccount",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.SendingAccount",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.MoneyTransfer",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.FinancialAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndTransaction",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.CashPayment",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.AmountOfMoney",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Purchase",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.DeliveryAddress",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.DeliveryRecipient",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineShop",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Carrier",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Purchaser",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Retailer",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Supplier",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.PaymentArtefact",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.WithdrawFromSale",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Address",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Delivery",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.RequestForQuotation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OfferForSale",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TradedAsset",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.TradeEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.OffenceCode",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Identifier",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfCriminalActivity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Created",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.MaliciousAccountUse",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccountInUse",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.OnlineAccount",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.CyberStalking",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Stalking",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Forgery",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Victim",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Perpetrator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.TerrorAttack",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Hacking",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.CriminalActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.AgreementName",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Name",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.TradeAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PoliticalAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Rented",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.RentalProvider",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Renter",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.RentalAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.NonDisclosureAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.RegionalConstituency",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Nation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Treaty",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Negotiator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Signatory",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.PartyToAgreement",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AgreementExecution",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Ratification",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Negotiation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.AgreementStage",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Attacker",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.OperationalEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TargetLocation",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.WeaponLocation",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Casualty",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.MilitaryAttack",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.MilitaryEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.DeclarationOfWar",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.AtWar",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.InternationalCoalition",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.War",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.InDisagreement",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Disagreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.RegionalConstituency",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Nation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.RealEstate",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Facility",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Arrested",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Accused",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.IncarcerationFacility",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.IncarceratingOrganisation",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Incarceration",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Prisoner",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ArrestingOfficer",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Prosecutor",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Prosecution",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Witness",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Arrest",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.LawEnforcement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Observed",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Observer",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Observation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PossibleWorld",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.GroupOfItems",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Assessor",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.AssessToBeTrue",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Device",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.AuthorisedActor",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Authoriser",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AuthorisedEventClass",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.TimeBoundedClass",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEvent",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.AuthorisationReviewer",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.AuthorisationRequester",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.GrantOfAuthority",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.AuthorisationRequest",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.AuthorisationStage",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndAuthorisation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Actor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Marriage",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndActivity",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Married",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Interested",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Hates",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Loves",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Likes",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Dislikes",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Destroy",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Modify",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Modifier",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Destroyer",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Creator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Create",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.LifecycleEvent",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Disagreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.InDisagreement",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ActiveEventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.AtWar",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.War",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Negotiator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Signatory",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.PartyToAgreement",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Ratification",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Negotiation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.EndToEndAgreement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Ticket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelTicket",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.AssetState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Movement",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Transit",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TrainTravel",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Sailing",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Flight",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.TravelService",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Cooperator",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Cooperation",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Competitor",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.EventParticipant",
+      "settings": {
+        "foreground": "#8f34eb"
+      }
+    },
+    {
+      "scope": "keyword.name.Competition",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Event",
+      "settings": {
+        "foreground": "#FF8AD8"
+      }
+    },
+    {
+      "scope": "keyword.name.Alliance",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Organisation",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.OrganisationState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.SimilarEntities",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.WorkOfDocumentation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfIndividualDocument",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.Representation",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfEntity",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.IndividualDocument",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Asset",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ClassOfElement",
+      "settings": {
+        "foreground": "#00B0F0"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Crossing",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ArbitraryOverlap",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.ExchangedItem",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Element",
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
+    {
+      "scope": "keyword.name.Entity",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.SubjectOfInterest",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.State",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.PeriodOfTime",
+      "settings": {
+        "foreground": "#FF7F50"
+      }
+    },
+    {
+      "scope": "keyword.name.PersonState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActorState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.DeathState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.BirthState",
+      "settings": {
+        "foreground": "#FFC000"
+      }
+    },
+    {
+      "scope": "keyword.name.Location",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.ResponsibleActor",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": "keyword.name.Person",
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": [
+        "constant",
+        "entity.name.constant",
+        "variable.other.constant",
+        "variable.other.enummember",
+        "variable.language",
+        "entity"
+      ],
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": [
+        "entity.name",
+        "meta.export.default",
+        "meta.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#f69d50"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter.function",
+        "meta.jsx.children",
+        "meta.block",
+        "meta.tag.attributes",
+        "entity.name.constant",
+        "meta.object.member",
+        "meta.embedded.expression"
+      ],
+      "settings": {
+        "foreground": "#adbac7"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#dcbdfb"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "support.class.component"
+      ],
+      "settings": {
+        "foreground": "#8ddb8c"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#f47067"
+      }
+    },
+    {
+      "scope": [
+        "storage",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#f47067"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier.package",
+        "storage.modifier.import",
+        "storage.type.java"
+      ],
+      "settings": {
+        "foreground": "#adbac7"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "string punctuation.section.embedded source"
+      ],
+      "settings": {
+        "foreground": "#96d0ff"
+      }
+    },
+    {
+      "scope": "support",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "meta.property-name",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#f69d50"
+      }
+    },
+    {
+      "scope": "variable.other",
+      "settings": {
+        "foreground": "#adbac7"
+      }
+    },
+    {
+      "scope": "invalid.broken",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff938a"
+      }
+    },
+    {
+      "scope": "invalid.deprecated",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff938a"
+      }
+    },
+    {
+      "scope": "invalid.illegal",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff938a"
+      }
+    },
+    {
+      "scope": "invalid.unimplemented",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff938a"
+      }
+    },
+    {
+      "scope": "carriage-return",
+      "settings": {
+        "fontStyle": "italic underline",
+        "background": "#f47067",
+        "foreground": "#cdd9e5",
+        "content": "^M"
+      }
+    },
+    {
+      "scope": "message.error",
+      "settings": {
+        "foreground": "#ff938a"
+      }
+    },
+    {
+      "scope": "string variable",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": [
+        "source.regexp",
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#96d0ff"
+      }
+    },
+    {
+      "scope": [
+        "string.regexp.character-class",
+        "string.regexp constant.character.escape",
+        "string.regexp source.ruby.embedded",
+        "string.regexp string.regexp.arbitrary-repitition"
+      ],
+      "settings": {
+        "foreground": "#96d0ff"
+      }
+    },
+    {
+      "scope": "string.regexp constant.character.escape",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#8ddb8c"
+      }
+    },
+    {
+      "scope": "support.constant",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "support.variable",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#8ddb8c"
+      }
+    },
+    {
+      "scope": "meta.module-reference",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#f69d50"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading",
+        "markup.heading entity.name"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#8ddb8c"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#adbac7"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#adbac7"
+      }
+    },
+    {
+      "scope": [
+        "markup.underline"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": [
+        "markup.strikethrough"
+      ],
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "scope": "markup.inline.raw",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": [
+        "markup.deleted",
+        "meta.diff.header.from-file",
+        "punctuation.definition.deleted"
+      ],
+      "settings": {
+        "background": "#5d0f12",
+        "foreground": "#ff938a"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#f47067"
+      }
+    },
+    {
+      "scope": [
+        "markup.inserted",
+        "meta.diff.header.to-file",
+        "punctuation.definition.inserted"
+      ],
+      "settings": {
+        "background": "#113417",
+        "foreground": "#8ddb8c"
+      }
+    },
+    {
+      "scope": [
+        "markup.changed",
+        "punctuation.definition.changed"
+      ],
+      "settings": {
+        "background": "#682d0f",
+        "foreground": "#f69d50"
+      }
+    },
+    {
+      "scope": [
+        "markup.ignored",
+        "markup.untracked"
+      ],
+      "settings": {
+        "foreground": "#2d333b",
+        "background": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "meta.diff.range",
+      "settings": {
+        "foreground": "#dcbdfb",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "meta.separator",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": "meta.output",
+      "settings": {
+        "foreground": "#6cb6ff"
+      }
+    },
+    {
+      "scope": [
+        "brackethighlighter.tag",
+        "brackethighlighter.curly",
+        "brackethighlighter.round",
+        "brackethighlighter.square",
+        "brackethighlighter.angle",
+        "brackethighlighter.quote"
+      ],
+      "settings": {
+        "foreground": "#768390"
+      }
+    },
+    {
+      "scope": "brackethighlighter.unmatched",
+      "settings": {
+        "foreground": "#ff938a"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.reference.link",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#96d0ff"
+      }
+    }
+  ]
+}

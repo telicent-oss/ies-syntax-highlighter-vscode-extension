@@ -1,0 +1,2222 @@
+[
+	{
+	  "ies:Accent": "An Characteristic whose members are people who all share the same national or regional accent"
+	},
+	{
+	  "ies:Account": "An Entity that is the collection of all transactions between a provider and a customer"
+	},
+	{
+	  "ies:AccountAdminEvent": "A BusinessEvent that an Account participates in"
+	},
+	{
+	  "ies:accountForCard": "Relates a BankCard to the FinancialAccount which the card is issued against."
+	},
+	{
+	  "ies:AccountHolder": "A PersonState when they hold an Account"
+	},
+	{
+	  "ies:AccountInCommunication": "An AccountState (and an EventParticipant) when an Account is involved in communicating. "
+	},
+	{
+	  "ies:AccountNumber": "The account number for the respective FinancialAccount."
+	},
+	{
+	  "ies:accountProvider": "The Organisation that provides the FinancialAccount"
+	},
+	{
+	  "ies:AccountState": "A temporal state of an Account"
+	},
+	{
+	  "ies:Accused": "A ResponsibleActors role as the accused in a Prosecution"
+	},
+	{
+	  "ies:aCopyOf": "An rdf:type relationship that asserts a Document is a copy of WorkOfDocumentationNote: Document instances are individual physical documents whereas WorkOfDocumentation is the general case of a document - e.g. War and Peace vs my copy of War and Peace"
+	},
+	{
+	  "ies:ActiveEventParticipant": "An EventParticipant where the participant is actively engaged in the Event.Note: In BORO, EventParticipant would be Involvement and ActiveEventParticipant would be Participation."
+	},
+	{
+	  "ies:Actor": "An Entity that is capable of performing functions - i.e. actively participating in an Event."
+	},
+	{
+	  "ies:ActorState": "A temporal state of an Actor"
+	},
+	{
+	  "ies:Address": "A Location that can be specified by a postal address"
+	},
+	{
+	  "ies:addressRegion": "An inLocation relationship to indicate an Address is in a RegionOfCountry"
+	},
+	{
+	  "ies:AdministeredAccount": "An EventParticipant where a FinancialAccount is administered"
+	},
+	{
+	  "ies:after": "A relationship linking two Elements where one ends before the other starts"
+	},
+	{
+	  "ies:AgreementExecution": "An AgreementStage which includes all the ongoing activities that conform to the agreement reached"
+	},
+	{
+	  "ies:AgreementName": "A Name that is used to refer to an EndToEndAgreement."
+	},
+	{
+	  "ies:AgreementStage": "An Event which is part of an EndToEndAgreement"
+	},
+	{
+	  "ies:Aircraft": "A Vehicle that travels by air"
+	},
+	{
+	  "ies:Airport": "A Port used for air travel"
+	},
+	{
+	  "ies:allAuthorisedAgainst": "A relationship linking an AuthorisedEventClass to an ExchangedItem to assert that all instances of the AuthorisedEventClass were Events acting upon the ExchangedItem.Note: this is generally a law-enforcement concern where a warrant (EndToEndAuthorisation) is granted against people, devices, etc. (GrantOfAuthority)."
+	},
+	{
+	  "ies:allHaveCharacteristic": "An rdfs:subClassOf relationship that asserts that all instances of a ClassOfElement share a particular Characteristic or Measuree.g. all London buses being red, all heavyweight boxers weighing more than 200lbs"
+	},
+	{
+	  "ies:allHaveDisposition": "An rdfs:subClassOf relationship that asserts that all instances of a ClassOfElement share a dispositione.g. all Eurofighters being cable of Mach 2"
+	},
+	{
+	  "ies:Alliance": "An Organisation made up of allies - these could be people or organisations, and the alliance may be quite loose."
+	},
+	{
+	  "ies:alliedTo": "A Relationship between two ResponsibleActor Entities where one is allied to the other."
+	},
+	{
+	  "ies:allocatedSeatNumber": "The seat number associated with the ticket"
+	},
+	{
+	  "ies:Altitude": "The Length that is the distance above (or below in the case of negative numbers) the surface of the WGS84 spheroid of the respective Location "
+	},
+	{
+	  "ies:AmountOfMoney": "A specific amount of a given currency"
+	},
+	{
+	  "ies:AmountOfSubstance": "The Measure of the stoichiometric quantity of substance (usually measured in moles)"
+	},
+	{
+	  "ies:ancestorOf": "A Relationship between two Person Entities that indicates one is and ancestor of the otherNote: was called relative of in IES 3.x, but was really only about ancestry, so is changed here. "
+	},
+	{
+	  "ies:andGroup": "The groups (if any) which the requesting user must be a member of in order to access the item. See the EDH specification for further details.Allowable Values:See EDH Standard"
+	},
+	{
+	  "ies:ArbitraryOverlap": "An Element whose extent is defined by being the shared overlap of two or more Elements"
+	},
+	{
+	  "ies:ArbitraryPeriod": "A PeriodOfTime for which is not delineated by a particular clock period - e.g. not a year, not a month, not a day, not an hour, etc. Instead it is one which is most clearly specified in terms of start and end that are ParticularPeriods."
+	},
+	{
+	  "ies:areaOfCoverage": "The area over which the TravelCard is valid Examples:London \u00f1 Zone 1London \u00f1 All Zones"
+	},
+	{
+	  "ies:Arrest": "A LawEnforcement Event where a Person is arrested"
+	},
+	{
+	  "ies:Arrested": "A Persons role when arrested"
+	},
+	{
+	  "ies:ArrestingOfficer": "A Persons role as arresting officer"
+	},
+	{
+	  "ies:Arrival": "A BoundingState that marks the end of a Movement eventThe date/time of the arrival can be specified using the inPeriod relationship. "
+	},
+	{
+	  "ies:assessed": "An owl:objectProperty that links an AssesToBeTrue to the rdfs:Resource that is assessed to be true."
+	},
+	{
+	  "ies:assessedToBeTheSameAs": "A relationship that asserts two ExchangedItems that may have been previously judged to be different are in fact the same thing. WARNING:  by the same we mean they occupy the same space for the same period of time - i.e. not two different things in the same place at different times, and not the same physical item at two different periods of time. The Identifier and State patterns should do most of what is needed here, and it is extremely rare that this would ever be needed. Do not use unless absolutely necessary. "
+	},
+	{
+	  "ies:Assessor": "An EventParticipant where an Actor assesses something to be true."
+	},
+	{
+	  "ies:AssessToBeTrue": "An Event where a fact is assessed to be true by a Actor (i.e. a Person or Device)An AssessToBeTrue shall have one and only one hmlConfidence attribute (i.e. this is mandatory)"
+	},
+	{
+	  "ies:Asset": "An Entity that is either man-made (or defined - see Rights) or whose extent is defined in such a way as to specify ownership - e.g. a parcel of real estate"
+	},
+	{
+	  "ies:AssetState": "A temporal state of an Asset"
+	},
+	{
+	  "ies:associatedCarrier": "The Organisation that provides the transport specified on the Ticket"
+	},
+	{
+	  "ies:carrierService": "The Organisation that provides the transport specified on the Ticket"
+	},
+	{
+	  "ies:associatedPersonName": "The name of the Person which is associated with the EntityThis may be the name of an account holder, the name printed on ID, tickets, etc.Note in 3.x, this was several different attributes:accountHolderName on FinancialAccountnameOnLicense, etc. on IdentityDocumentticketHolderName on Ticket"
+	},
+	{
+	  "ies:Attacker": "Relates a MilitaryAttack to the Organisation conducting the attack"
+	},
+	{
+	  "ies:Attendance": "A Presence where the Person is presentNote - we may not know the identity of the person, so would just create only the Attendance (EventParticipant). This allows the model to grow as more information is discovered without recourse to using sameAs relationships."
+	},
+	{
+	  "ies:attribute": "A feature or property of an ExchangedItemNote: In IES4 it is important to distinguish between names and attributes - attribute should never be used to identify or name something - for that, use Name or Identifier."
+	},
+	{
+	  "ies:AtWar": "An InDisagreement where the parties have declared war"
+	},
+	{
+	  "ies:AuthorisationDocument": "A WorkOfDocumentation that provides permission"
+	},
+	{
+	  "ies:AuthorisationRequest": "An AuthorisationStage where a ResponsibleActor requests authorisation to act from another ResponsibleActor"
+	},
+	{
+	  "ies:AuthorisationRequester": "An ActiveEventParticipant where a ResponsibleActor requests authority to act "
+	},
+	{
+	  "ies:AuthorisationReviewer": "An ActiveEventParticipant where a ResponsibleActor reviews an AuthorisationRequest"
+	},
+	{
+	  "ies:AuthorisationStage": "An Event which is part of an EndToEndAuthorisation"
+	},
+	{
+	  "ies:AuthorisedActor": "An ActiveEventParticipant where a ResponsibleActor is granted authority to act in a GrantOfAuthority "
+	},
+	{
+	  "ies:AuthorisedEventClass": "A ClassOfEvent where the type activity described is either authorised or required to be authorised.An instance of an AuthorisedEventClass will most often also be a TimeBoundedClass as it is rare to see requests or grants of authority with no time limit. An AuthorisedEventClass will usually be of the form of Event type A against Entity X = e.g. Arrest of John Smith, Surveillance of 23 Acacia Gardens. The link from this class to the entity involved is via the allAuthorisedAgainst relationship."
+	},
+	{
+	  "ies:Authoriser": "An ActiveEventParticipant where a ResponsibleActor acts as the authoriser (sign off) in a GrantOfAuthority "
+	},
+	{
+	  "ies:authorisesAccessTo": "The Event for which the respective Ticket applies."
+	},
+	{
+	  "ies:Bank": "An Organisation that holds a banking license and can conduct financial transactions on behalf of customers"
+	},
+	{
+	  "ies:BankBranch": "An operating division of a Bank, usually a high street branch, but might also be the online arm of a Bank"
+	},
+	{
+	  "ies:BankCard": "A PaymentArtefact that is a physical card used for making financial transactions.Note: when used online, the accompanying Fan"
+	},
+	{
+	  "ies:beginBoundOfClass": "A relationship linking a TimeBoundedClass to the ParticularPeriod that marks the beginning bound date of its instances"
+	},
+	{
+	  "ies:BirthCertificate": "An IdentityDocument issued to prove the data and place of birth of a Person"
+	},
+	{
+	  "ies:BirthState": "A BoundingState that marks the beginning of a Persons life.The location of the birth can be specified using inLocationThe date/time of the birth can be specified using the inPeriod relationship. "
+	},
+	{
+	  "ies:BoardingCardNumber": "The number of the boarding card issued to the Passenger. "
+	},
+	{
+	  "ies:Book": "A WorkOfDocumentation that is a published book"
+	},
+	{
+	  "ies:BookedPassenger": "A Persons involvement as a booked traveller in a TravelBooking"
+	},
+	{
+	  "ies:BookingAgent": "A ResponsibleActors involvement as the facilitator of a TravelBooking"
+	},
+	{
+	  "ies:BookingPayment": "An EventParticipant where an AmountOfMoney in cash is used as payment in a TravelBooking.When neither card nor cash is used, there will be an accompanying MoneyTransfer"
+	},
+	{
+	  "ies:BookingReference": "An Identifier that is  notionally unique number that is allocated to a TravelBooking.Note that Booking Reference Numbers are recycled and so are not unique in their own right. When combined with the BookingDate it is potentially possible to identify a specific booking."
+	},
+	{
+	  "ies:bookingType": "Relates a TravelBooking to a ClassOfTravelBooking to indicate the method of booking"
+	},
+	{
+	  "ies:BoundingState": "A ContinuousState that occurs at the beginning or end of an Element The date/time of the state can be specified using the inPeriod relationship. "
+	},
+	{
+	  "ies:BranchCode": "In identifier for a BankBranch - In the UK this is often referred to as the Sort Code."
+	},
+	{
+	  "ies:branding": "A brand or logo that is represented on an Entitye.g. some bank cards are branded by a car manufacturer, etc. but actually operated by a bank"
+	},
+	{
+	  "ies:BusinessEvent": "An Event that is commercial or administrative in nature"
+	},
+	{
+	  "ies:Callee": "An PartyInCommunication where the communicating party is called in an InteractiveCommunication"
+	},
+	{
+	  "ies:Caller": "An PartyInCommunication where the communicating party is the caller in an InteractiveCommunication"
+	},
+	{
+	  "ies:Callsign": "In broadcasting and radio communications, a call sign (also known as a call name or call letters \u00f1 and historically as a call signal) is a unique designation for a transmitting station."
+	},
+	{
+	  "ies:Capability": "A DispositionalClass where all the instances share the same capabilityExample: Vehicles capable of Mach 2"
+	},
+	{
+	  "ies:CardNumber": "An Identifier that is the long number on the face of the card (PaymentArtefact)"
+	},
+	{
+	  "ies:cardType": "The type of a PaymentArtefact"
+	},
+	{
+	  "ies:CardUsed": "An EventParticipant where a PaymentArtefact is participant in a TradeEvent"
+	},
+	{
+	  "ies:Carrier": "An EventParticipant where a ResponsibleActor participates in a Delivery as a carrier"
+	},
+	{
+	  "ies:CarTravel": "A TravelService by car"
+	},
+	{
+	  "ies:CashPayment": "An EventParticipant where an AmountOfMoney in cash is used as payment in a Purchase.When neither card nor cash is used, there will be an accompanying MoneyTransfer"
+	},
+	{
+	  "ies:Casualty": "Relates a MilitaryAttack to a Person who was injured or killed in the attack"
+	},
+	{
+	  "ies:CBRadioHandset": "A CommunicationsDevice used to hold radio conversations on frequencies allocated as Citizen Band"
+	},
+	{
+	  "ies:CellularBaseStation": "A RadioMast that is used for cellular communication"
+	},
+	{
+	  "ies:ChangeOfGovernment": "A PoliticalEvent where one Government is replaced by another."
+	},
+	{
+	  "ies:Characteristic": "A ClassOfElement whose instances all share a common property - e.g. they are all the same colour, mass, etc. "
+	},
+	{
+	  "ies:charters": "A Relationship between a ResponsibleActor and the Transit they have chartered."
+	},
+	{
+	  "ies:CheckIn": "An Event where a Person checks in to a hotel or Transit. This also includes swiping tickets to use public transportThe location of the CheckIn is specified using a happensIn relationship.The CheckIn may be part of another Event - e.g. an EntertainmentEvent or Transit event. Simply use the isPartOf relationship to specify this."
+	},
+	{
+	  "ies:CinemaTicket": "An EntertainmentTicket that permits attendance at a cinema"
+	},
+	{
+	  "ies:ClassOfAccount": "The powertype of Account"
+	},
+	{
+	  "ies:ClassOfAmountOfMoney": "The powertype of AmountOfMoney"
+	},
+	{
+	  "ies:ClassOfAsset": "The powertype of Asset- i.e. a ClassOfEntity whose instances are classes of AssetExamples:* Vauxhall Insignia, VW Golf* Smartphone* Apple iPhone 6S"
+	},
+	{
+	  "ies:ClassOfClassOfElement": "An rdfs:Class and an ExchangedItem whose instances are classes of classes of Element"
+	},
+	{
+	  "ies:ClassOfClassOfEntity": "The powertype of ClassOfEntity"
+	},
+	{
+	  "ies:ClassOfCriminalActivity": "The powertype of CriminalActivityExample instances:* Burglary* Fraud* Murder* Driving sheep across London Bridge if not a freeman of the City* Being Welsh inside the walls of Chester outside daylight hours"
+	},
+	{
+	  "ies:ClassOfDevice": "The powertype of Device- i.e. a ClassOfEntity whose instances are classes of DeviceExamples:* Smartphone* Apple iPhone 6S"
+	},
+	{
+	  "ies:ClassOfElement": "An rdfs:Class and an ExchangedItem whose instances are classes of ElementExamples:\tHuman groupings (e.g. Nigerian Women, British Men, Righthanded people, English Speakers);\tPolitical Ideologies\tWeapons\tDays of the week\tStandard procedures\tetc."
+	},
+	{
+	  "ies:ClassOfEntity": "The powertype of Entity - i.e. a ClassOfElement whose instances are classes of EntityExamples:\u2211 Human groupings (e.g. Nigerian Women, British Men, Righthanded people, English Speakers);\u2211 Weapons\u2211 Etc."
+	},
+	{
+	  "ies:ClassOfEvent": "An ClassOfElement whose instances are classes of Event. This is the powertype of Event.Examples:* Conference* Football Match* Annual General Meeting"
+	},
+	{
+	  "ies:ClassOfFinancialAccount": "The powertype of FinancialAccountExamples:* Savings Account* Current Account* Credit Card Account"
+	},
+	{
+	  "ies:ClassOfIndividualDocument": "The powertype of IndividualDocument"
+	},
+	{
+	  "ies:ClassOfMeasureValue": "A ClassOfRepresentation that is the powertype of MeasureValue"
+	},
+	{
+	  "ies:ClassOfMoneyTransfer": "The powertype of MoneyTransferExamples:* BACS* CHAPS* Paypal payment"
+	},
+	{
+	  "ies:ClassOfOnlineService": "The powertype of OnlineService"
+	},
+	{
+	  "ies:ClassOfOperationalEvent": "The powertype of OperationalEventExamples:* Counter-Narcotics Operation* Murder Investigation"
+	},
+	{
+	  "ies:ClassOfOrganisation": "The powertype of OrganisationNote: care should be exercised when using ClassOfOrganisation - it should only be used for classifications that apply to the whole life of the organisation."
+	},
+	{
+	  "ies:ClassOfPaymentArtefact": "The powertype of PaymentArtefactExamples:* Visa* Oyster* Selfridges Store Card"
+	},
+	{
+	  "ies:ClassOfPerson": "The powertype of Person"
+	},
+	{
+	  "ies:ClassOfPersonState": "The powertype of PersonState"
+	},
+	{
+	  "ies:ClassOfRepresentation": "The powertype of Representation"
+	},
+	{
+	  "ies:ClassOfResponsibleActor": "The powertype of ResponsibleActor "
+	},
+	{
+	  "ies:ClassOfResponsibleActorState": "A ClassOfState that is the powertype of ResponsibleActorState "
+	},
+	{
+	  "ies:ClassOfState": "A ClassOfElement whose instances are classes of States. This is the powertype of State.Examples:* Roles"
+	},
+	{
+	  "ies:ClassOfTravelBooking": "The powertype of TravelBookingExamples:INTERNET BookingTELEPHONE Booking"
+	},
+	{
+	  "ies:ClassOfTravelVisa": "The powertype of TravelVisa"
+	},
+	{
+	  "ies:ClassOfWebResource": "The powertype of WebResource"
+	},
+	{
+	  "ies:CloseAccount": "An AccountAdminEvent where an Account is shut down."
+	},
+	{
+	  "ies:coercedBy": "A Relationship between two ResponsibleActor Entities where one (range) coerces the other (domain)."
+	},
+	{
+	  "ies:CoLocation": "An Event where the activity is uncertain, but it is known that some Entities were presentNote: whilst colocation can be easily inferred from data, sometimes its important to call out specific instances where entities of interest were in the same place at the same time."
+	},
+	{
+	  "ies:Colour": "An Characteristic whose members all have the same colour"
+	},
+	{
+	  "ies:CommercialOrganisation": "An Organisation that is run for profit"
+	},
+	{
+	  "ies:Communication": "An Event where two or more parties interact and exchange information"
+	},
+	{
+	  "ies:CommunicationsAccount": "An Account of the communications transactions provided to a customer"
+	},
+	{
+	  "ies:CommunicationsAccountState": "A temporal state of a CommunicationsAccount"
+	},
+	{
+	  "ies:CommunicationsDevice": "A Device that provides an endpoint for communications \u00f1 e.g. mobile telephone, landline, satellite phone, CB Radio, etc."
+	},
+	{
+	  "ies:CommunicationsIdentifier": "An Identifier for the end-point of a communication "
+	},
+	{
+	  "ies:CommunicationsIdentifierRange": "A specified range of identifiers for the end-points of a communication."
+	},
+	{
+	  "ies:Competition": "An Event where the participants are competing with each other"
+	},
+	{
+	  "ies:Competitor": "An EventParticipant where a ResponsibleActor is in competition"
+	},
+	{
+	  "ies:ConcertTicket": "An EntertainmentTicket where the Event is a concert"
+	},
+	{
+	  "ies:ConferenceHost": "A ConferenceParticipant that is in the role of host"
+	},
+	{
+	  "ies:ConferenceParticipant": "An PartyInCommunication that is a participant in a TeleConference"
+	},
+	{
+	  "ies:confidence": "A qualitative or quantitative indication of the confidence of an AssessToBeTrue "
+	},
+	{
+	  "ies:contactDetailsOnBooking": "The contact details of the Person making the booking as recorded on the actual Travel Booking.Note that if these details can be parsed to identify the contact telephone number, contact email address etc. then they should be mapped as instances of relationship to the respective CommunicationsIdentifier (TelephoneNumber, EmailAddress, etc.)."
+	},
+	{
+	  "ies:ContentCategory": "An ClassOfClassOfEntity whose instances collect together all Representations that have similar content.Examples:* Fiction* Non-Fiction* Financial Information* Extremist Media"
+	},
+	{
+	  "ies:ContinuousState": "A State that is temporally continuous - i.e. it is not a DiscontinuousState"
+	},
+	{
+	  "ies:contractedTo": "A worksFor relationship where a ResponsibleActor (domain) is contracted to another ResponsibleActor (range)."
+	},
+	{
+	  "ies:Cookie": "An OnlineArtefact that is stored on a Device to enable continuity of session, log-in, or simply to track activity online.Cookies tend to be ephemeral, an unique to a device, so no states are required. Simply use cookieOnDevice relationship mark the stand and end BoundingStates of the Cookie. "
+	},
+	{
+	  "ies:cookieOnDevice": "Relates a Cookie to the Device it is installed on.Note: there is usually no need for states here as the Cookie itself has begin and end times."
+	},
+	{
+	  "ies:cookieOriginSite": "Relates a Cookie to the Webpage from which it originated."
+	},
+	{
+	  "ies:Cooperation": "An Event where the participants are cooperating with each other"
+	},
+	{
+	  "ies:Cooperator": "An EventParticipant where a ResponsibleActor is in Cooperation"
+	},
+	{
+	  "ies:Country": "A Location whose land extent / borders are recognised as a Country by the International Standards Organisation (ISO)Note: this is simply the land, any buildings on it, and the airspace and ground beneath as recognised by the ISO definition. It does not include the nationals of the Country, its Government, etc. "
+	},
+	{
+	  "ies:countryOfRegistration": "The Country in which the respective Entity is registered / recognised."
+	},
+	{
+	  "ies:countryUsingDialCode": "A relationship between a TelephoneCountryCode and a Country that uses that code.Note:  more than one Country may use the same code, and in rare cases a given Country may have more than one code."
+	},
+	{
+	  "ies:cousinOf": "A Relationship between two Person Entities that indicates one is the cousin of the other"
+	},
+	{
+	  "ies:Create": "A LifecycleEvent where an Entity is brought into existence."
+	},
+	{
+	  "ies:Created": "An EventParticipant where an Entity is createdThe date/time of the creation can be specified using the inPeriod relationship. "
+	},
+	{
+	  "ies:CreatedContent": "A Create EventParticipant where online content is created"
+	},
+	{
+	  "ies:Creator": "An EventParticipant where a ResponsibleActor participates in a Create event as a creator"
+	},
+	{
+	  "ies:CreditCard": "A BankCard that allows the customer to carry a line of credit"
+	},
+	{
+	  "ies:CriminalActivity": "An Event which is illegal within the laws of the jurisdiction in which it takes place.Note: If the CriminalActivity falls into one of the Home Office Offence Classification Index codes, then this should be provided using the offenceCode attribute."
+	},
+	{
+	  "ies:CriminalOrganisation": "An OrganisationState that is assessed to be breaking the law in an organised manner"
+	},
+	{
+	  "ies:Crossing": "A Location and an ArbitraryOverlap whose extent is defined by the shared overlap of two or more Locations"
+	},
+	{
+	  "ies:crossingOf": "A partOf relationship to indicate a Location (range) has a Crossing (domain)"
+	},
+	{
+	  "ies:Currency": "A ClassOfAmountOfMoney that is the denomination as currency.The identifier should be specified as an ISO4217 three-letter code (e.g. USD, GBP, EUR, etc.)"
+	},
+	{
+	  "ies:currencyAmount": "A number that represents the amount of currency. Note: sometimes the number and/or the currency may be unknown and therefore not instantiated"
+	},
+	{
+	  "ies:currencyDenomination": "The currency in which the AmountOfMoney is denominated"
+	},
+	{
+	  "ies:Customer": "An EventParticipant where a ResponsibleActor is the customer for the Event - i.e. the Event has been conducted as a service to them, or in production of goods for them."
+	},
+	{
+	  "ies:CustomerIdentifier": "The customer identifier associated with the Financial Account.A single Customer Identity could be associated with more than one Financial Account managed by the same provider."
+	},
+	{
+	  "ies:CyberStalking": "A form of Stalking which takes place online."
+	},
+	{
+	  "ies:Database": "A DataObject that is the contents of an entire database (note this is still a class, as there may be many copies of the database)"
+	},
+	{
+	  "ies:DatabaseItem": "A DataObject that is part of the data in a DatabaseExamples:* A table, row, column in RDBMS* A document in a document db* a key-value pair in KVDB* named graph in a graph db"
+	},
+	{
+	  "ies:DatabaseRow": "A DataObject that is an entire row of a table in a database (note this is still a class, as there may be many copies of the database)"
+	},
+	{
+	  "ies:DatabaseTable": "A DataObject that is the entire contents of a table in a database (note this is still a class, as there may be many copies of the database)"
+	},
+	{
+	  "ies:DataKey": "A unique key (usually only unique within a Database, though it could be a GUID) that identifies a DataObject"
+	},
+	{
+	  "ies:DataObject": "A Representation which might contain internal structure that can be exploited using bespoke tools and/or applications. Data objects might be geoobjects, video files, audio files, etc."
+	},
+	{
+	  "ies:DeathState": "A BoundingState that marks the end of a Persons lifeThe location of the death can be specified using inLocationThe date/time of the death can be specified using the inPeriod relationship. "
+	},
+	{
+	  "ies:DebitCard": "A BankCard where transactions debit from a bank account"
+	},
+	{
+	  "ies:DeclarationOfWar": "A PoliticalAnnouncement marking the start of a War"
+	},
+	{
+	  "ies:DeclaredTarget": "The Organisation against which War has been declared"
+	},
+	{
+	  "ies:DeclaringParty": "An EventParticipant where a ResponsibleActor makes an AnnouncementNote: this also covers GoverningParty from IES 3.2"
+	},
+	{
+	  "ies:Delivery": "A TradeEvent where one or more Entities are delivered to the receiving party"
+	},
+	{
+	  "ies:DeliveryAddress": "An EventParticipant where an Address participates in a Delivery as a the location to which the delivery is made"
+	},
+	{
+	  "ies:DeliveryRecipient": "An EventParticipant where a ResponsibleActor participates in a Delivery as a recipient"
+	},
+	{
+	  "ies:DemocraticChangeOfGovernment": "A ChangeOfGovernment that comes about by democratic means"
+	},
+	{
+	  "ies:Department": "An Organisation that is part of another Organisation - usually part of a CommercialOrganisation, though other Organisations have departments"
+	},
+	{
+	  "ies:Departure": "An EventParticipant and a BoundingState that marks the start of a Travel eventThe date/time of the departure can be specified using the inPeriod relationship. "
+	},
+	{
+	  "ies:Destroy": "A LifecycleEvent where an Entity is destroyed"
+	},
+	{
+	  "ies:Destroyed": "An EventParticipant where an Entity is destroyed"
+	},
+	{
+	  "ies:Destroyer": "An EventParticipant where a ResponsibleActor participates in a Destroy event as a destroyer"
+	},
+	{
+	  "ies:Device": "An Asset that is man-made and performs one or more functions - i.e. it is also an Actor"
+	},
+	{
+	  "ies:DeviceInCommunication": "A DeviceState (and an EventParticipant) when a Device is communicating. "
+	},
+	{
+	  "ies:DeviceOnline": "An EventParticipant where a Device participates in an OnlineEvent"
+	},
+	{
+	  "ies:DeviceState": "A temporalState of a Device"
+	},
+	{
+	  "ies:dialInNumber": "The number dialed to take part in the TeleConference"
+	},
+	{
+	  "ies:Disagreement": "An Event that covers the end-to-end disagreement between parties"
+	},
+	{
+	  "ies:DiscontinuousState": "A State that is temporally dissected - i.e. it is not a continuous state, but in fact a fusion of states (which may or may not be specified)This is used for managing situations where something happens from time to time, and we dont always know when it happens. For example, if a vehicle is usually parked in a street, we would use a DiscontinuousState of the vehicle that would be inLocation."
+	},
+	{
+	  "ies:Dislikes": "A Interested state where a ResponsibleActor dislikes something"
+	},
+	{
+	  "ies:DispositionalClass": "A ClassOfElement whose instances all share the same disposition - e.g. capability or tendencyExample: Vehicles capable of Mach 2"
+	},
+	{
+	  "ies:disrespectfulOf": "A Relationship between two ResponsibleActor Entities where one is disrespectful of the other.Note: this should not be considered a bi-directional relationship. Just because one person disrespects another person does not necessarily mean the feeling is reciprocated. "
+	},
+	{
+	  "ies:distrusts": "A Relationship between two ResponsibleActor Entities where one distrusts the other.Note: this should not be considered a bi-directional relationship. Just because one person distrusts another person does not necessarily mean the feeling is reciprocated. "
+	},
+	{
+	  "ies:documentedBy": "An isRepresentedAs relationship that asserts a WorkOfDocumentation is about an ExchangedItem"
+	},
+	{
+	  "ies:DocumentFormat": "A ClassOfIndividualDocument whose members are all of the same document format - e.g.PDFMS Word"
+	},
+	{
+	  "ies:documentIdentifies": "Links an IdentityDocument to the Person it identifies.Note: was Is associated with in IES3"
+	},
+	{
+	  "ies:DocumentSection": "A Representation that is a section/chapter/paragraph in a WorkOfDocumentationNote: inRepresentation should be used to associate the DocumentSection with the WorkOfDocumentation or other DocumentSection it is part of."
+	},
+	{
+	  "ies:DomainName": "A CommunicationsIdentifierRange that defines a realm of administrative autonomy, authority or control within the internet.  [from wikipedia]"
+	},
+	{
+	  "ies:DrivingLicence": "An IdentityDocument that permits a Person to drive a Vehicle in the Country of issue. "
+	},
+	{
+	  "ies:Duration": "The Measure of an Elements temporal extent"
+	},
+	{
+	  "ies:Easting": "The GeoIdentity that is a representation of the eastward componrnent of cartesian point on a map - i.e. on a 2D projection of the globe such as a mercator projection."
+	},
+	{
+	  "ies:EducationalOrganisation": "An Organisation that provides education"
+	},
+	{
+	  "ies:Election": "A PoliticalEvent where the population vote for their preferred ElectoralCandidate to become their representative. "
+	},
+	{
+	  "ies:ElectoralCandidate": "A Person standing for elected office"
+	},
+	{
+	  "ies:ElectoralRegion": "The RegionalConstituency being decided in an Election"
+	},
+	{
+	  "ies:ElectricCurrent": "The Measure of the flow of electric chargeNote: whilst this is a tricky Measure in a 4D ontology, it should be used in a niaive manner - i.e. a measure of a State of an Entity when the current is flowing through it."
+	},
+	{
+	  "ies:Element": "An ExchangedItem that has a spatial extent and can have start and end dates"
+	},
+	{
+	  "ies:EmailAccount": "A CommunicationsAccount that is used to administer the use of one or more e-mail addresses."
+	},
+	{
+	  "ies:EmailAddress": "A CommunicationsIdentifier that uniquely identifiers an email account.Format: local-part@domain"
+	},
+	{
+	  "ies:employedBy": "A worksFor relationship where the worker is employed."
+	},
+	{
+	  "ies:EncodedData": "A Representation which is external data according to a data format that is not in IES format. "
+	},
+	{
+	  "ies:endBoundOfClass": "A relationship linking a TimeBoundedClass to the ParticularPeriod that marks the end bound date of its instances"
+	},
+	{
+	  "ies:endsIn": "An xsd:DateTime for the end of the period"
+	},
+	{
+	  "ies:EndToEndActivity": "An Event (usually of long duration) that is composed of a number of other Events."
+	},
+	{
+	  "ies:EndToEndAgreement": "An EndToEndActivity which is the overall process of agreeing something, including all the events that take place under that agreement, such as the negotiation, signing, delivery of service, etc."
+	},
+	{
+	  "ies:EndToEndAuthorisation": "An EndToEndActivity which is the overall process of requesting, receiving authority to act, and the conduct of activities under that authorisation until the period of authorisation ends. "
+	},
+	{
+	  "ies:EndToEndTransaction": "An EndToEndActivity covering the lifecycle of the trade"
+	},
+	{
+	  "ies:enemyOf": "A Relationship between two ResponsibleActor Entities where one is the enemy of the other.Note: this should not be considered a bi-directional relationship. Just because one person considers another person their enemy does not necessarily mean the feeling is reciprocated. "
+	},
+	{
+	  "ies:EntertainmentEvent": "An Event where entertainment (sporting, music, theatre, etc.) is provided"
+	},
+	{
+	  "ies:EntertainmentTicket": "A Ticket to an EntertainmentEvent"
+	},
+	{
+	  "ies:Entity": "An Entity typically represents a tangible thing like a Person, a Communications Device, or a Location."
+	},
+	{
+	  "ies:EntityInTransit": "A TravelLeg where an Entity is moving in Transit"
+	},
+	{
+	  "ies:Ethnicity": "A ClassOfPerson whose members all share the same ethnicity"
+	},
+	{
+	  "ies:Event": "An Event represents an activity or incident, involving one or more participating entities, that occurred/started at a specific point in time \u00f1 e.g. a meeting, or a telephone call."
+	},
+	{
+	  "ies:eventDateTime": "The date/time of the performance to which the ticket is valid."
+	},
+	{
+	  "ies:EventParticipant": "A State which is the participating role of an Entity in an Event.Note: this includes inactive participation (e.g. something that is being repaired). If the participation is known to be active then ActiveEventPartipant (or one of its subtypes) should be used. In BORO, EventParticipant would be Involvement and ActiveEventParticipant would be Participation."
+	},
+	{
+	  "ies:EventState": "A temporal state of an EventNote: care must be taken with using this in a 4D, extensional model such as IES. States such as Ended would not be appropriate, for example - in such a case, the temporal extent of the Event or the presence of a BoundingState to end it would be correct. "
+	},
+	{
+	  "ies:EvidentialPhotograph": "Relates a Surveillance Event to a Document that is the evidence resulting from the Surveillance"
+	},
+	{
+	  "ies:ExchangedItem": "An ExchangedItem is a real world \u00ebthing\u00ed about which a sender might retain specific knowledge, some or all of which is needed to be shared (exchanged) with one or more recipients."
+	},
+	{
+	  "ies:ExchangePayload": "A marker object that shall be present in all IES exchange files. This object is the domain for all meta-data about the file.Wherever possible, Dublin-Core meta-data tags should be used on an ExchangePayload. If locally defined properties are needed, then these may also be defined and included in the exchange file. "
+	},
+	{
+	  "ies:excludedFrom": "A Relationship between a ResponsibleActorState and a Location they are not allowed to enter.Note: any additional information about how or why the exclusion is in place should be added to the state"
+	},
+	{
+	  "ies:Facility": "A Location that is man-made, but is typically larger than an Address (i.e. it may have more than one postal address)Examples:Military camps, factories, sports facilities, airports, etc."
+	},
+	{
+	  "ies:familiallyRelatedTo": "A Relationship between PersonState (which may be a Person, or just a temporal state of Person) and another Person to indicate they have a familial relationship.Note:  some relationships will be temporal (e.g. spouseOf) and therefore related a state to a Person. Others will be for life (i.e. from the birth of the youngest until one of them dies) and therefore between two whole-life Person entities."
+	},
+	{
+	  "ies:fearfulOf": "A Relationship between two ResponsibleActor Entities where one is fearful of the other.Note: this should not be considered a bi-directional relationship. Just because one person considers another person a threat does not necessarily mean the feeling is reciprocated. "
+	},
+	{
+	  "ies:FerryTicket": "A Ticket that is used to travel by sea"
+	},
+	{
+	  "ies:FinancialAccount": "An Account held for financial management purposes."
+	},
+	{
+	  "ies:financialAccountType": "Relates a FinancialAccount to its type. Note, that a given FinancialAccount may have more than one ClassOfFinancialAccount - e.g. a Business Account that is also a Current Account"
+	},
+	{
+	  "ies:FirstLineOfAddress": "The first line of the Address including the number of the dwelling and the street name."
+	},
+	{
+	  "ies:Flight": "A TravelService by air"
+	},
+	{
+	  "ies:FlightTicket": "A Ticket that is used to travel by air"
+	},
+	{
+	  "ies:FootballMatchTicket": "An EntertainmentTicket for a football match"
+	},
+	{
+	  "ies:Forgery": "A CriminalActivity that is the creation of fake items(also a subclass of Create). "
+	},
+	{
+	  "ies:format": "The format of the respective WorkOfDocumentation.Examples:PDFMS Word"
+	},
+	{
+	  "ies:formatOfIndividualDocument": "The format of the respective IndividualDocument.Examples:PDFPrinted"
+	},
+	{
+	  "ies:FoundOrganisation": "A Create Event where an Organisation is founded"
+	},
+	{
+	  "ies:friendOf": "A Relationship between two ResponsibleActor Entities where one is the friend of the other.Note: this should not be considered a bi-directional relationship. Just because one person considers another person their friend does not necessarily mean the feeling is reciprocated. Not that Im bitter or anything. See also Stalking if you must. "
+	},
+	{
+	  "ies:Gender": "A ClassOfPerson whose members all share the same gender"
+	},
+	{
+	  "ies:GeographicFeature": "A Location that is a naturally occurring feature on the earth."
+	},
+	{
+	  "ies:GeoIdentity": "A unique Identifier attributed to the respective Location"
+	},
+	{
+	  "ies:GeoJSON": "GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on JSON, the JavaScript Object Notation.GeoJSON mandates use of WGS 84 coordinate system - see IETF RFC 7946"
+	},
+	{
+	  "ies:GeoObject": "A DataObject and a GeoRepresentation that contains geographical information"
+	},
+	{
+	  "ies:GeoPoint": "A Location that is a point (mathematically speaking, of vanishing volume) on, below or above the surface of the WGS84 spheroid. The distance from the spheroid surface is given by the altitudeInMetres attribute."
+	},
+	{
+	  "ies:GeoRepresentation": "A Representation for a Location - e.g. a point, a polyline, etc."
+	},
+	{
+	  "ies:GivenName": "A PersonName that is one of the given names of a PersonNote:A GivenName will often be applied to a State of the Person, as names tend to change over time"
+	},
+	{
+	  "ies:GML": "The Geography-Markup-Language (GML) is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet. Key to GMLs utility is its ability to integrate all forms of geographic information, including not only conventional vector or discrete objects, but coverages (see also GMLJP2) and sensor data."
+	},
+	{
+	  "ies:governedPopulation": "Relates a Government to the RegionalPopulation that it governs. "
+	},
+	{
+	  "ies:governedRegion": "The Location which the respective Government is in charge of.See also goverenedPopulation - sometimes Locations have no people, and sometimes people reside outside the region in which they are legally citizens.Note: A Government instance has a start and end date corresponding to its time in power. "
+	},
+	{
+	  "ies:Government": "An Organisation that is (usually) elected to run a governedRegion"
+	},
+	{
+	  "ies:GovernmentOrganisation": "An Organisation that is part of, or controlled by a national or local Government"
+	},
+	{
+	  "ies:grantedActivityType": "A relationship linking an GrantOfAuthority to a AuthorisedEventClass that the authorisation grants.For example,  granting authorisation to travel"
+	},
+	{
+	  "ies:GrantOfAuthority": "An AuthorisationStage where a ResponsibleActor grants another ResponsibleActor authority to act."
+	},
+	{
+	  "ies:groupDescription": "A simple text description of a GroupOfItems"
+	},
+	{
+	  "ies:groupName": "A name given to a GroupOfItems"
+	},
+	{
+	  "ies:GroupOfItems": "A collection of ExchangedItem that have been gathered together for a purpose. Note: The same ExchangedItem can be in more than one GroupOfItems"
+	},
+	{
+	  "ies:Hacking": "A CriminalActivity where computer equipment is interfered with without the owners permission"
+	},
+	{
+	  "ies:handlingCaveat": "A textual description of any handling caveats that must be adhered to."
+	},
+	{
+	  "ies:happensIn": "A partOf relationship to indicate an Event takes place within a Location"
+	},
+	{
+	  "ies:hasAccessTo": "A Relationship between a ResponsibleActorState and an Entity they have access to - e.g. a FinancialAccount, CommunicationsDevice, etc."
+	},
+	{
+	  "ies:hasAuthor": "The author of the respective document."
+	},
+	{
+	  "ies:hasCharacteristic": "An rdf:type relationship that asserts an Element has a Characteristic or Measure"
+	},
+	{
+	  "ies:hasCountryOfIssue": "The country in which the respective IdentityDocument or PaymentArtefact was issued."
+	},
+	{
+	  "ies:hasEmergencyContactAddress": "The address of an emergency contact as printed on the IdentityDocument"
+	},
+	{
+	  "ies:hasEthnicity": "The ethnic group that the respective Person belongs to.The Metropolitan Police standard shall be used as the reference data standard."
+	},
+	{
+	  "ies:hasGeneticGender": "The gender the Person was born with (sex) and which would result from a DNA test."
+	},
+	{
+	  "ies:hasIdentifiedGender": "The gender the Person chooses to identify as"
+	},
+	{
+	  "ies:hasLanguageProficiency": "A language spoken by the respective Person at a stage (PersonState) in their life"
+	},
+	{
+	  "ies:hasName": "An isRepresentedAs relationship that asserts an ExchangedItem is identified (albeit loosely) by a Name"
+	},
+	{
+	  "ies:hasPublisher": "The publisher of the document."
+	},
+	{
+	  "ies:hasRegisteredCommsID": "A relationship between a CommunicationsIdentifier and the CommunicationsAccountState of the account to which the identifier is registered"
+	},
+	{
+	  "ies:hasReligion": "A relationship where a PersonState holds or follows a Religion"
+	},
+	{
+	  "ies:hasRole": "An rdf:type relationship that asserts a State has a RoleExample - Freds time in Acme as a manager"
+	},
+	{
+	  "ies:hasSourceReference": "A isRepresentedAs relationship that asserts a Representation is the source (information provenance) for an ExchangedItem"
+	},
+	{
+	  "ies:hasStatedAddress": "The address of the owner/user as recorded on the respective IdentityDocument or PaymentArtefact."
+	},
+	{
+	  "ies:hasStatedCountryOfResidence": "The country of residence as printed on the respective IdentityDocument "
+	},
+	{
+	  "ies:hasStatedNationality": "The nationality of the identity holder as specified on the IdentityDocument."
+	},
+	{
+	  "ies:hasStatedPlaceOfBirth": "A relationship to the place of birth as recorded on the respective IdentityDocument"
+	},
+	{
+	  "ies:hasStatedPlaceOfIssue": "A relationship to the place of issue as specified on the IdentityDocument"
+	},
+	{
+	  "ies:hasTheme": "A relationship linking an Event (e.g. Communication, Meeting or Investigation) to an ExchangedItem that is a theme (or topic)Examples:* A Event being investigated after it occurred* A general investigation into a Location* A Meeting discussing a new project* A VoiceCall about a Vehicle"
+	},
+	{
+	  "ies:hasValue": "An isRepresentedAs relationship that asserts a Measure has a MeasureValueNote: a given Measure may have more than one value (e.g. 1kg or 2.2lbs) in different units of measure"
+	},
+	{
+	  "ies:Hates": "An Interested state where a ResponsibleActor hates something"
+	},
+	{
+	  "ies:HealthServiceIdentifier": "A NationalIdentityNumber used for managing a citizens through-life healthcareIn UK, this would be an NHS number, apart from Scotland where it is called a CHI number"
+	},
+	{
+	  "ies:hmlConfidence": "A confidence whose value must be one of HIGH, MEDIUM, or LOWThis is a mandatory attribute for AssessToBeTrue"
+	},
+	{
+	  "ies:holdsAccount": "Relates an AccountHolder (PersonState) to the Account they hold"
+	},
+	{
+	  "ies:hostedOn": "Relates a WebResourceState to the OnlineService that hosts it"
+	},
+	{
+	  "ies:IATACode": "A GeoIdentity that is administered by the International Air Transport Associate for airport identification"
+	},
+	{
+	  "ies:IBAN": "An Identifier that is an International Bank Account NumberSee ISO 13616:2007"
+	},
+	{
+	  "ies:ICAOCode": "A GeoIdentity that is administered by the International Civil Aviation Organisation for identifying airports"
+	},
+	{
+	  "ies:idAuthenticity": "Provides an indication of the believed authenticity of the IdentityDocumentGenuineFakeUnknown"
+	},
+	{
+	  "ies:idDateOfBirth": "The Date of Birth as specified on the respective IdentityDocument."
+	},
+	{
+	  "ies:idDateOfIssue": "The date that the respective Identity Document was actually issued \u00f1 this is different from the ValidFromDate on EphemeralIdDocuments."
+	},
+	{
+	  "ies:idEmergencyContactName": "The name of an emergency contact as printed on the IdentityDocument"
+	},
+	{
+	  "ies:idEmergencyContactTelNo": "The telephone number of an emergency contact as printed on the IdentityDocument"
+	},
+	{
+	  "ies:Identifier": "A Name that is unique within the specified context"
+	},
+	{
+	  "ies:IdentityDocument": "An IndividualDocument used to confirm the identity of the bearer (and often enables a particular activity \u00f1 e.g. a passport enables the bearer to travel across international borders)."
+	},
+	{
+	  "ies:idFamilyName": "The family name as printed on the IdentityDocument"
+	},
+	{
+	  "ies:idGender": "The gender as recorded on the respective IdentityDocument"
+	},
+	{
+	  "ies:idGivenNames": "The given names as printed on the IdentityDocument"
+	},
+	{
+	  "ies:idLowerRange": "A relationship between a CommunicationsIdentifierRange and the CommunicationsIdentifier that is the lower limit of the identifier range "
+	},
+	{
+	  "ies:idOnCard": "A relationship that asserts a NationalIdentityNumber (which identifies a person) is featured on a NationalIdentityCard"
+	},
+	{
+	  "ies:idUpperRange": "A relationship between a CommunicationsIdentifierRange and the CommunicationsIdentifier that is the upper limit of the identifier range "
+	},
+	{
+	  "ies:IdUsedInCheckIn": "An EventParticipant where an IdentityDocument is used in a CheckIn event"
+	},
+	{
+	  "ies:ilrProficiency": "The Proficiency qualifier is specified using the Interagency Language Roundtable (ILR) scale [E].(a) ILR Level 0 \u00f1 No proficiency(b) ILR Level 1 \u00f1 Elementary Proficiency(c) ILR Level 2 \u00f1 Limited Working Proficiency(d) ILR Level 3 \u00f1 Professional Working Proficiency(e) ILR Level 4 \u00f1 Full Professional Proficiency(f) ILR Level 5 \u00f1 Native or Bilingual Proficiency"
+	},
+	{
+	  "ies:IMEI": "The International Mobile Equipment Identity used to identify GSM, WCDMA and iDEN mobile phone handsets, as well as some satellite phones.Usually a 15-digit number (14 digits plus a check digit)Example Value:123456789012345"
+	},
+	{
+	  "ies:IMSI": "The International Mobile Subscriber NumberHistorically, this is stored as a 64-bit number on the SIM Card (it is NOT identity of the SIM Card itself), but now can be a software assigned identifier to any mobile subscriber interface. An IMSI is usually presented as a 15-digit number, but it can be shorter.The first three digits are the Mobile Country Code (MCC), followed by a 2 or 3 digit Mobile Network Code (MNC) and the remaining digits are the Mobile Subscription Identification Number (MSIN).For the example shown this would be:- 404=India,- 68=MTNL Delhi- 1234567890=Subscriber ID"
+	},
+	{
+	  "ies:IncarceratingOrganisation": "An Organisationss role in incarcerating a Person"
+	},
+	{
+	  "ies:Incarceration": "A LawEnforcement EndToEndActivity where a Person is incarcerated"
+	},
+	{
+	  "ies:IncarcerationFacility": "A Facility used for incarceration - e.g. a prison, detention centre, or remand facility"
+	},
+	{
+	  "ies:inCategory": "An rdf:type relationship that asserts a Representation belongs to a ContentCategory"
+	},
+	{
+	  "ies:IncomingGovernment": "The Government that took power after a ChangeOfGovernment"
+	},
+	{
+	  "ies:IncumbentRepresentative": "A Person in-office prior to the Election being decided"
+	},
+	{
+	  "ies:InDisagreement": "An EventParticipant where a ResponsibleActor is in disagreement"
+	},
+	{
+	  "ies:IndividualDocument": "An Asset that is a written, photographed or drawn representation of thoughts. This might include, but not limited to, formal reports, books, legal instruments. Such documents might exist in a wide variety of forms, both printed and in electronic form.Note: this is an individual document  - i.e. physical or (rarely) a specific electronic copy (e.g. on a specific hard disk...told you it was rare). In most cases, we refer to the document in general - WorkOfDocumentation "
+	},
+	{
+	  "ies:IndividualDocumentID": "An Identifier used to uniquely identify an IndividualDocument"
+	},
+	{
+	  "ies:influencedBy": "A relationship between a ResponsibleActor and the thing that influences them"
+	},
+	{
+	  "ies:informationContent": "A relationship between a WebResourceState and a Representation that asserts the Representation is the content of the WebResourceNote: a state is used here as the content may change over time even though the WebResource persists"
+	},
+	{
+	  "ies:inGroup": "A property linking an ExchangedItem to a GroupOfItems indicating that it belongs to that group.Note: An ExchangedItem may be in more than one group and a group may contain more than one ExchangedItem"
+	},
+	{
+	  "ies:inLanguage": "An rdf:type relationship that asserts a Representation is in a particular Language"
+	},
+	{
+	  "ies:inLocation": "A partOf relationship to indicate an Element is entirely within a Location"
+	},
+	{
+	  "ies:inPeriod": "A partOf relationship to indicate an Elements lifetime is entirely within a PeriodOfTimeExample:Freds birth is in May 1978"
+	},
+	{
+	  "ies:inPossessionOf": "A Relationship between a ResponsibleActor and an Asset they have in their possession.Note: this is separate to ownership - e.g. the possessor may well be the owner (use the owns relationship) but may also be a result of borrowing, theft, temporary custodianship, "
+	},
+	{
+	  "ies:InPost": "A temporal state of a ResponsibleActor when they are in a Post"
+	},
+	{
+	  "ies:inRepresentation": "A relationship that asserts a Representation is part of another Representation"
+	},
+	{
+	  "ies:InResidence": "A temporal state of a ResponsibleActorNote:  this is the superclass of ResponsibleActor (the whole life person or organisation) because the whole-life state is just a special case of a ResponsibleActorState. This pattern is true for all states. "
+	},
+	{
+	  "ies:InWork": "A temporal state of a ResponsibleActorNote:  this is the superclass of ResponsibleActor (the whole life person or organisation) because the whole-life state is just a special case of a ResponsibleActorState. This pattern is true for all states. "
+	},
+	{
+	  "ies:InWorship": "A temporal state of a ResponsibleActorNote:  this is the superclass of ResponsibleActor (the whole life person or organisation) because the whole-life state is just a special case of a ResponsibleActorState. This pattern is true for all states. "
+	},
+	{
+	  "ies:ResponsibleActorState": "A temporal state of a ResponsibleActorNote:  this is the superclass of ResponsibleActor (the whole life person or organisation) because the whole-life state is just a special case of a ResponsibleActorState. This pattern is true for all states. "
+	},
+	{
+	  "ies:ServiceUser": "A temporal state of a ResponsibleActorNote:  this is the superclass of ResponsibleActor (the whole life person or organisation) because the whole-life state is just a special case of a ResponsibleActorState. This pattern is true for all states. "
+	},
+	{
+	  "ies:Socialising": "A temporal state of a ResponsibleActorNote:  this is the superclass of ResponsibleActor (the whole life person or organisation) because the whole-life state is just a special case of a ResponsibleActorState. This pattern is true for all states. "
+	},
+	{
+	  "ies:Visiting": "A temporal state of a ResponsibleActorNote:  this is the superclass of ResponsibleActor (the whole life person or organisation) because the whole-life state is just a special case of a ResponsibleActorState. This pattern is true for all states. "
+	},
+	{
+	  "ies:inScheme": "An rdf:type relationship that asserts a Representation is a member of a RepresentationScheme"
+	},
+	{
+	  "ies:installedSoftware": "A relationship indicating Software is installed on a Device"
+	},
+	{
+	  "ies:IntelligenceAgency": "A GovernmentOrganisation that collects, analyses or disseminates intelligence"
+	},
+	{
+	  "ies:IntelligenceOperation": "An OperationalEvent that involves the gathering, analysis or dissemination of intelligence"
+	},
+	{
+	  "ies:InteractiveCommunication": "A Communication that occurs synchronously - e.g. a video or voice call"
+	},
+	{
+	  "ies:Interested": "A ResponsibleActorState where the Actor is interested in something"
+	},
+	{
+	  "ies:interestedIn": "A Relationship between a ResponsibleActor (or state thereof) and an Entity they are interested in."
+	},
+	{
+	  "ies:InternationalCoalition": "An Organisation formed of Nations who have agreed to pursue a particular course (e.g. a war)"
+	},
+	{
+	  "ies:intimidatedBy": "A Relationship between two ResponsibleActor Entities where one (range) intimidates the other (domain)."
+	},
+	{
+	  "ies:Investigation": "An IntelligenceOperation that researches a particular threat, or theme. "
+	},
+	{
+	  "ies:Investigator": "An Operator role where a Person is an investigator"
+	},
+	{
+	  "ies:IPAddress": "An Identifier that is an Internet Protocol address."
+	},
+	{
+	  "ies:IPAddressRange": "A CommunicationIdentifierRange between two IPAddress instancesIn these examples the IPv4 address range is specified using the following format:&lt;lower address&gt; - &lt;upper address&gt; using one of a number of different IPv4 address notations.The IPv4 address range is all the IPv4 addresses between the &lt;lower address&gt; and the &lt;upper address&gt; (inclusive).Both examples here represent the same address range (but in different notations).The Dot Decimal Range notation specifies the &lt;lower address&gt; and the &lt;upper address&gt; in Dot Decimal form \u00f1 whereeach of these 32-bit IPv4 addresses are expressed as four octets expressed individually in decimal and separated by periods.The Dot Hexadecimal Range notation specifies the &lt;lower address&gt; and the &lt;upper address&gt; in Dot Hexadecimal form \u00f1 where each of these 32-bit IPv4 addresses are expressed as four octets where each octet is prefixed with 0x, expressed individually in hexadecimal and separated by periods."
+	},
+	{
+	  "ies:IPv4Address": "An IPAddress conforming to v4 of the standard"
+	},
+	{
+	  "ies:IPv6Address": "An IPAddress conforming to v6 of the standard"
+	},
+	{
+	  "ies:isAuthorisedForUseWithPassport": "The passport associated with the Visa.Note: if the IES data does not already contain the associated passport, a Passport instance must be created, and the appropriate passport number specified."
+	},
+	{
+	  "ies:isCentroidOf": "An inLocation relationship to indicate a PointOnEarthSurface is the centroid of a Location"
+	},
+	{
+	  "ies:isDisposedTo": "An rdf:type relationship that asserts an Element is a member of a DispositionalClass - i.e. it is disposed to (capable of, tends to, etc.) the specified disposition."
+	},
+	{
+	  "ies:isEndOf": "An isStateOf that relates a BoundingState to the Element it marks the end of"
+	},
+	{
+	  "ies:isIdentifiedBy": "A hasName relationship that asserts an Identifier identifies an ExchangedItem"
+	},
+	{
+	  "ies:isLegalTenderIn": "The Country in which a Currency is legal tender"
+	},
+	{
+	  "ies:ISO19125-WKT": "A GeoRepresentation using Well-Known-Text encoding for ISO19125 simple features.Note: the WKT must include the coordinate reference system used - e.g WGS 84"
+	},
+	{
+	  "ies:ISO3166_1Alpha_3": "ISO 3166-1 alpha 3 (3-Letter Country Code)"
+	},
+	{
+	  "ies:ISO639-3Code": "ISO639-3 three-letter language code"
+	},
+	{
+	  "ies:iso8601PeriodRepresentation": "A ISO8601 datetime (as xsd:dateTime if possible) that represents the ParticularPeriod.Note: the representation is also encoded in the URI of the period, this is an additional required attribute to enable querying by dateTime and SPARQL temporal operations."
+	},
+	{
+	  "ies:isParticipantIn": "An isPartOf that relates an EventParticipant to the Event it participates in."
+	},
+	{
+	  "ies:isParticipantStateIn": "An isParticipantIn and an isStateOf that relates an EventParticipant to the Event it participates, in the case where the participant has the same spatial extent as the Event for that period of time.Note: This is really just a bit of logical plumbing to enable start and end states of Events to be all of the event for a period of time."
+	},
+	{
+	  "ies:isParticipationOf": "An isStateOf that relates an EventParticipant to the Element that is the participant"
+	},
+	{
+	  "ies:isPartOf": "A relationship linking an Element to another that it is part of.Examples:London partOf UKMy Arm partOf Me"
+	},
+	{
+	  "ies:isPrimaryForOrganisation": "A relationship linking an ExchangedItem to the ResponsibleActor that prefers the use of that ExchangedItem.This is used when there are more than one state, name, etc. for a given item, and there is a requirement to specify which one is considered primary / preferred by a particular Organisation.Examples:* A primary name for a person (applied to PersonName)* A primary DoB for a person (applied to BirthState)* A primary nationality for a person (applied to the PersonState that links to the Nation)"
+	},
+	{
+	  "ies:isRepresentedAs": "A relationship that asserts a Representation in someway depicts an ExchangedItem"
+	},
+	{
+	  "ies:isStartOf": "An isStateOf that relates a BoundingState to the Element it marks the start of"
+	},
+	{
+	  "ies:isStateOf": "An isPartOf linking an Element to a temporal State of that Element Examples:You, you yesterday"
+	},
+	{
+	  "ies:issuerIdentificationNumber": "The IIN is a number that uniquely identifies the issuer of the Bank Card.An ISO/IEC 7812 number contains a single-digit major industry identifier (MII), a six-digit issuer identification number (IIN), an individual account identification number, and a single digit checksum."
+	},
+	{
+	  "ies:issuingAgency": "The Organisation that issued the ticket \u00f1 this might be different from the travel provider."
+	},
+	{
+	  "ies:isTeacherOf": "A Relationship between two ResponsibleActor Entities that indicates one teaches the other.In the case where the teaching is occasional / ad-hoc (i.e. there isnt an ongoing course) then the instance of the ResponsibleActorState should also be an instance of DiscontinuousState"
+	},
+	{
+	  "ies:JointAccount": "A FinancialAccount held by more than one person"
+	},
+	{
+	  "ies:Journey": "A Movement which is made up of two or more TravelLegsNote:  this may include a number of legs to the journey (i.e. instances of TravelLeg that are part of the Journey)"
+	},
+	{
+	  "ies:JsonData": "An EncodedData which is in JSON format"
+	},
+	{
+	  "ies:jurisdictionOfRights": "A Relationship between Rights and the Nation under whose laws the Rights are established"
+	},
+	{
+	  "ies:knownAssociateOf": "A Relationship between two ResponsibleActor Entities where both are known to know each other but the extent to which they interact (e.g. friendship, work, criminal activity, etc.) is not known."
+	},
+	{
+	  "ies:LandlineHandset": "A CommunicationsDevice that connects using fixed line telecommunications"
+	},
+	{
+	  "ies:LandlineTelephoneAccount": "A TelephoneAccount where the telephones in use connect using a wired network and operate only in a specific location"
+	},
+	{
+	  "ies:Language": "A ClassOfRepresentation that is a spoken or written form of human communication"
+	},
+	{
+	  "ies:LanguageProficiency": "A ClassOfPersonState indicating the proficiency a person has in a particular language at that state in their life."
+	},
+	{
+	  "ies:Latitude": "A GeoIdentity that is a decimal representation of an angle of latitude of a PointOnEarthSurface (WGS84)"
+	},
+	{
+	  "ies:LawEnforcement": "An Event that involves the application of criminal law"
+	},
+	{
+	  "ies:LawEnforcementOrganisation": "A GovernmentOrganisation that investigates crimes and brings the perpetrators to justice. Wikipedia definition: Law enforcement is any system by which some members of society act in an organized manner to enforce the law by discovering, deterring, rehabilitating, or punishing people who violate the rules and norms governing that society."
+	},
+	{
+	  "ies:LeadInvestigator": "An Investigator who is charge of an Investigation"
+	},
+	{
+	  "ies:Length": "The Measure of distance as specified by the International System of Quantities"
+	},
+	{
+	  "ies:LifecycleEvent": "An Event that brings about change to its environment or another Element - e.g. creation, destruction or modification"
+	},
+	{
+	  "ies:Likes": "An Interested State where a ResponsibleActor likes something"
+	},
+	{
+	  "ies:LineOfAddress": "A line in an Address. There may be any number of these."
+	},
+	{
+	  "ies:LiveCast": "An OnlineArtefact that is video or audio streamed online in real time.Note: the begin and end dates for a LiveCast instance mark its life online rather than the duration of the actual recording. The recording itself should be tracked using an OnlineContentCreation Event."
+	},
+	{
+	  "ies:Location": "An Entity that is a geographic place which specifies a point or an area on the Earths surface or elsewhere."
+	},
+	{
+	  "ies:LocationState": "A temporal state of a Location"
+	},
+	{
+	  "ies:Logoff": "A OnlineEvent where an OnlineAccount logs out of an OnlineService"
+	},
+	{
+	  "ies:Logon": "A OnlineEvent where an OnlineAccount logs onto an OnlineService"
+	},
+	{
+	  "ies:Longitude": "The GeoIdentity that is a decimal representation of an angle of longitude of a PointOnEarthSurface (WGS84)"
+	},
+	{
+	  "ies:Loves": "A interestedIn relationship where a Person loves another Person"
+	},
+	{
+	  "ies:lowerBound": "A relationship a MeasureRange to the Measure that is its lower bound"
+	},
+	{
+	  "ies:LuminousIntensity": "The Measure of radiated light"
+	},
+	{
+	  "ies:MACAddress": "A CommunicationsIdentifier that is used to identify network interface controllersVarious forms of the MAC address can be used:(a) six groups of two hexadecimal digits, separated by hyphens (-) or colons (:), in transmission order(b) three groups of four hexadecimal digits separated by dots (.) again in transmission order.2. The make &amp; model of the network interface is encoded within the MAC address."
+	},
+	{
+	  "ies:maintains": "A Relationship between a ResponsibleActorState and an Entity they maintain"
+	},
+	{
+	  "ies:make": "A relationship from the device to its make - i.e. organisation that brands it (even if the manufacture is contracted-out)Example - an iPhone 6S has make Apple"
+	},
+	{
+	  "ies:MaliciousAccountUse": "An OnlineAccountInUse where the account is used to conduct a CriminalActivity online"
+	},
+	{
+	  "ies:managedBy": "A worksFor relationship where the managed ResponsibleActorState (domain) is managed by another ResponsibleActor (range)."
+	},
+	{
+	  "ies:MapGridArea": "A Location whose area is specified by a grid on a map.Note this is the actual area, not the map grid. "
+	},
+	{
+	  "ies:Marriage": "An EndToEndActivity covering the entire extent of a two peoples marriage (from the ceremony to either divorce or death)Note: As IES4 does not increase the scope of IES3, Marriage also includes common-law partners and civil partnerships"
+	},
+	{
+	  "ies:Married": "A State when a Person is married to another person"
+	},
+	{
+	  "ies:Mass": "The Measure of an Entitys resistance to acceleration as specified by the International System of Quantities"
+	},
+	{
+	  "ies:Measure": "An Characteristic which is measurable on a scale"
+	},
+	{
+	  "ies:MeasureRange": "A Measure specified by upper and lower bound Measures"
+	},
+	{
+	  "ies:measureUnit": "An rdf:type relationship that asserts a Measure is represented using a particular UnitOfMeasure"
+	},
+	{
+	  "ies:MeasureValue": "A Representation of the value of a MeasureNote: A UnitOfMeasure is almost always required. The reason it is not mandatory is that in some cases (due to partial reporting) we do not have complete information - e.g. we know the value was stated to be 10 but we dont know if thats metres or feet"
+	},
+	{
+	  "ies:MediaFile": "A DataObject that is a stand-alone file - e.g. a video, image or sound recording"
+	},
+	{
+	  "ies:Meeting": "A CoLocation where the attendees (Presence) communicate with each other"
+	},
+	{
+	  "ies:MeetingChair": "An Attendance where the Person involved is the chair of a Meeting"
+	},
+	{
+	  "ies:Message": "A Communication or OnlineContentEvent where a message is sent"
+	},
+	{
+	  "ies:messageContent": "An attribute representing the content of a messageExample:messageContent = See you at Waterloo station at 18:15"
+	},
+	{
+	  "ies:MilitaryAttack": "A MilitaryEvent where force is usedNote: was called Attack in v3.x - now called MilitaryAttack to distinguish from domestic attacks, terrorist attacks, hacking attacks, etc."
+	},
+	{
+	  "ies:MilitaryEvent": "An OperationalEvent that involves military staff"
+	},
+	{
+	  "ies:MilitaryOrganisation": "A GovernmentOrganisation that conducts warfighting, peacekeeping and emergency civil support functions"
+	},
+	{
+	  "ies:missionPurpose": "A short description of why an IntelligenceOperation was carried out used for legal justificationAgencies that work in the intelligence domain may wish to standardise these descriptions. "
+	},
+	{
+	  "ies:MobileHandset": "A CommunicationsDevice that is a portable telephone using cellular networks"
+	},
+	{
+	  "ies:MobileTelephoneAccount": "A TelephoneAccount where the telephones in use connects using a cellular network"
+	},
+	{
+	  "ies:ModelOfDevice": "A ClassOfDevice where the model is specifiedExamples:* Apple iPhone 6S* Ford Focus"
+	},
+	{
+	  "ies:Modifier": "An EventParticipant where a ResponsibleActor participates in a Modify event as a modifier"
+	},
+	{
+	  "ies:Modify": "A LifecycleEvent where something is changed"
+	},
+	{
+	  "ies:MoneyTransfer": "A BusinessEvent where an AmountOfMoney is moved from one FinancialAccount to another.Usually a Money Transfer event will involve two accounts but we might not know both, or it might be a cash transfer \u00f1 in which case only one of the participants might be specified."
+	},
+	{
+	  "ies:Movement": "An Event where an Entity moves from one place to another."
+	},
+	{
+	  "ies:Moving": "An EventParticipant in which an Entity moves from one Location to another"
+	},
+	{
+	  "ies:Name": "A Representation that is used to refer to something, usually in context of a NamingSchemeExamples:GBR - the ISO Trigram for the United KingdomGB - the FIPS two-letter code for the United KingdomMichael Caine  - stage name for Maurice Micklewhite"
+	},
+	{
+	  "ies:NamingScheme": "An ClassOfClassOfEntity whose instances collect together all Names that belong to a particular scheme - i.e. an organisational identity scheme, a systems primary key format, etc."
+	},
+	{
+	  "ies:Nation": "The people of a Country (or group of Countries recognised as a Nation).Note: this is distinct to a Country which is the land mass under control by the Nation, though ISO Country codes are regularly used to also identify Nations. "
+	},
+	{
+	  "ies:NationalIdentityCard": "An IdentityDocument issued by a Government to identify a Person"
+	},
+	{
+	  "ies:NationalIdentityNumber": "An Identifier of a Person that is specified by a GovernmentOrganisation "
+	},
+	{
+	  "ies:nationality": "A relationship to a Nation which recognises the Person (or State of Person, as it is possible to renounce a nationality) as one of their nationals."
+	},
+	{
+	  "ies:natureOfInterest": "NatureOfInterest is limited to the following values:\u2211 Personal\u2211 Professional\u2211 Academic"
+	},
+	{
+	  "ies:nearTo": "A relationship linking an Entity to another Entity it is proximate to in space"
+	},
+	{
+	  "ies:Negotiation": "An AgreementStage where parties are trying to find agreement"
+	},
+	{
+	  "ies:Negotiator": "An EventParticipant where a ResponsibleActor negotiates an agreement"
+	},
+	{
+	  "ies:nephewOrNieceOf": "A Relationship between two Person Entities that indicates one is the nephew or niece of the other.Note: people can become nephews or nieces at different stages in their lives (e.g. as people marry) so PersonState should be used in cases where someone has not always been related in this way (i.e. not from birth)"
+	},
+	{
+	  "ies:NetworkInterface": "An Device (usually part of another Device) that provides wired or wireless access to a network.Network interfaces can often be removable. To model this, create DeviceStates of the NetworkInterface and make them part of the Device which hosts the interface for that period of time. "
+	},
+	{
+	  "ies:nextTo": "A nearTo linking an Entity to another Entity it is immediately proximate to (i.e. touching) in space"
+	},
+	{
+	  "ies:Nickname": "A PersonName that is an unofficial or casual nameNote:An nickname will often be applied to a State of the Person, as these tend to be non-permanent names"
+	},
+	{
+	  "ies:NonDisclosureAgreement": "An EndToEndAgreement where parties agree not to disclose certain information"
+	},
+	{
+	  "ies:Northing": "The GeoIdentity that is a representation of the northward componrnent of cartesian point on a map - i.e. on a 2D projection of the globe such as a mercator projection."
+	},
+	{
+	  "ies:NotForProfitOrganisation": "An Organisation where all income is reinvested, or distributed - i.e. no profit is made."
+	},
+	{
+	  "ies:Notify": "An OnlineContentEvent where a notification is raised - i.e.  an application-generated event (not a user-generated event)"
+	},
+	{
+	  "ies:objectContent": "The content of the data object.Whenever a DataObject is exchanged it must include either the ObjectContent or an ObjectContentReference or both.The ContentStandard qualifier specifies the standard (either by name or by reference) that is applicable to the content of the DataObject.The ContentFormat qualifier specifies the format of the content of the DataObject."
+	},
+	{
+	  "ies:objectContentReference": "An ObjectContentReference is a resolvable reference to the \u00ebcontent\u00ed of the respective DataObject.Whenever a DataObject is exchanged it must include either the ObjectContent or an ObjectContentReference or both."
+	},
+	{
+	  "ies:ObjectName": "A Name given to a DataObject."
+	},
+	{
+	  "ies:Observation": "An Event where an Element (Event or Entity) is observed by an Entity (i.e. a Person or Device)"
+	},
+	{
+	  "ies:Observed": "An EventParticipant where an Element is Observed"
+	},
+	{
+	  "ies:Observer": "An EventParticipant where an Entity observes another Entity or Event"
+	},
+	{
+	  "ies:ObserverStatus": "When a Government has observer rights at a Summit"
+	},
+	{
+	  "ies:OffenceCode": "An Identifier for a ClassOfCriminalActivityThe Home Office Offence Classification Index [B] should be used wherever possible to specify the Crime Type"
+	},
+	{
+	  "ies:OfferForSale": "A TradeEvent where one or more Entities of the same type (specified by an ClassOfEntity) are offered for sale or exchange"
+	},
+	{
+	  "ies:OnJourney": "An EventParticipant in which an Entity is on a Journey (i.e. a multi-part journey)"
+	},
+	{
+	  "ies:OnlineAccount": "An Account that enables a person, organisation or other entity to participate within a particular online domain.Note: was called OnlineIdentifier in previous versions of IES"
+	},
+	{
+	  "ies:OnlineAccountInUse": "An EventParticipant where an OnlineAccount participates in an OnlineEvent"
+	},
+	{
+	  "ies:onlineAccountProvider": "Relates an OnlineAccount to the OnlineService that provides and administers the account.Note:  was called Domain in previous IES versions"
+	},
+	{
+	  "ies:OnlineAccountState": "A temporal state of an OnlineAccount"
+	},
+	{
+	  "ies:OnlineArtefact": "A WebResource which is any kind of media presented online that is more granular than a webpage, and user-generated - e.g. a blog post, tweet, facebook post, etc.Note: when applying begin and end states (and periods of time) to OnlineArtefact, the times should correspond to the life of the content, not the duration of the posting activity."
+	},
+	{
+	  "ies:OnlineArtefactInEvent": "An EventParticipant where an OnlineArtefact participates in an OnlineEvent"
+	},
+	{
+	  "ies:OnlineComment": "An OnlineArtefact that is a comment on an existing OnlineArtefact instance"
+	},
+	{
+	  "ies:onlineCommentOn": "Relates an OnlineComment to the OnlineContent that was commented on"
+	},
+	{
+	  "ies:OnlineContentCreation": "An OnlineContentEvent where a post is made.Examples:* Posting a blog* Posting a comment* Tweeting (other microblogs are available, probably)* A Facebook, LinkedIn, Instagram, etc. post"
+	},
+	{
+	  "ies:OnlineContentEvent": "An OnlineEvent where content (text, images, video, etc.) is uploaded, downloaded or viewed"
+	},
+	{
+	  "ies:OnlineEvent": "An Event on the internet"
+	},
+	{
+	  "ies:OnlineLike": "OnlineArtefact that is a like of an existing OnlineArtefact instance"
+	},
+	{
+	  "ies:onlineLikeOf": "Relates an OnlineLike to the OnlineContent that was liked"
+	},
+	{
+	  "ies:onlinePublisher": "Relates an OnlineArtefact to the ResponsibleActor that produced it."
+	},
+	{
+	  "ies:OnlineService": "A service provided on the internet."
+	},
+	{
+	  "ies:onlineServiceProvider": "Relates an OnlineService to the ResponsibleActor that owns/runs it"
+	},
+	{
+	  "ies:onlineServiceType": "The class of OnlineService"
+	},
+	{
+	  "ies:OnlineShop": "An EventParticipant where a ResponsibleActor participates in a TradeEvent as an online shop"
+	},
+	{
+	  "ies:OpenAccount": "An AccountAdminEvent where a new Account is opened"
+	},
+	{
+	  "ies:OperatingSystem": "Software that provides the basic access layer to hardware"
+	},
+	{
+	  "ies:OperationalEvent": "An Event conducted by military or national security actors"
+	},
+	{
+	  "ies:Operator": "A ResponsibleActors role in an OperationalEvent where they are one of the operators "
+	},
+	{
+	  "ies:opposedTo": "A coupling between a ResponsibleActor (or state thereof) and an ClassOfElement to which they are opposedExamples: an organisation that is opposed to Nuclear Weapons"
+	},
+	{
+	  "ies:Organisation": "A ResponsibleActor that is a group of people formed for one or more of purposes \u00f1 e.g. government organisations, educational organisations, terrorists organisations, religious organisations, etc."
+	},
+	{
+	  "ies:OrganisationalRole": "A Role that a ResponsibleActor can have in an Organisation"
+	},
+	{
+	  "ies:OrganisationIdentifier": "A unique Identifier for an Organisation (more usually an OrganisationState)Example:DUNS numberVAT numberCompanies House NumberRegistered Charity Number"
+	},
+	{
+	  "ies:OrganisationName": "A Name used to identify an Organisation"
+	},
+	{
+	  "ies:OrganisationState": "A temporal state of an Organisation"
+	},
+	{
+	  "ies:orGroup": "The groups (if any) which the requesting user must be a member of at least one of in order to access the item. See the EDH specification for further details.Allowable Values:See EDH Standard"
+	},
+	{
+	  "ies:originatingSystem": "The System that produced the dataset"
+	},
+	{
+	  "ies:originator": "The ResponsibleActor that produced the dataset"
+	},
+	{
+	  "ies:OSGridReference": "A GeoIdentity that is an Ordnance Survey Grid Reference - i.e. pertaining to Great Britain."
+	},
+	{
+	  "ies:OutgoingGovernment": "The Government that left power following a ChangeOfGovernment"
+	},
+	{
+	  "ies:owns": "A Relationship between a ResponsibleActor and an Asset they legally own"
+	},
+	{
+	  "ies:parentOf": "A Relationship between two Person Entities that indicates one is the parent of the other"
+	},
+	{
+	  "ies:Parked": "A temporal state of a Vehicle where it is not moving. Examples:* A car parked on the roadside* A ship in dock or at anchor* An aircraft parked on the tarmac or in a hangar"
+	},
+	{
+	  "ies:ParticularPeriod": "A PeriodOfTime that is a specific, contiguous extent of time.IMPORTANT NOTE: The URI of a ParticularPeriod shall be encoded as follows:http://iso8601.iso.org/2007-01-18T15%3A00%3A00Where the content after the / is % encoded (e.g. encodeURIComponent in javascript). In the example above, the unencoded content would be 2007-01-18T15:00:00The reason behind using a URI is that receiving systems can resolve the periods of time and de-duplicate. Examples:Tuesday 28th August 20182016December 1944"
+	},
+	{
+	  "ies:PartNumber": "A unique Identifier for the a ModelOfDeviceNote:  this is different to a serial number which is unique to each Device"
+	},
+	{
+	  "ies:PartOfFacility": "A Location that is contained within a Facility - e.g. a room, laboratory, floor, etc."
+	},
+	{
+	  "ies:PartyInCommunication": "An Event that is part of (usually one end of) a Communication Event.Sometimes, all we know about a PartyInCommunication is their CommunicationsIdentifier (phone number, e-mail address, maybe even just an IP address) so the isIdentifiedBy relationship may be applied to PartyInCommunication"
+	},
+	{
+	  "ies:PartyToAgreement": "An EventParticipant where a ResponsibleActor is party to an EndToEndAgreementNote:  this includes EndToEndAgreements that were never ratified - i.e. they got to the negotiation stage but were never put into force"
+	},
+	{
+	  "ies:Passenger": "A PersonInTransit where the Person travelling is a Passenger on a Transit"
+	},
+	{
+	  "ies:PassengerName": "The Name of the Person being used for Travel - it may not be known if this is the actual Name the Person travelling, as someone else may be using their ticket."
+	},
+	{
+	  "ies:Passport": "An IdentityDocument that confirms a Persons nationality and permits them to cross national boundaries"
+	},
+	{
+	  "ies:payloadContents": "A link from an ExchangePayload to an rdfs:Resource that is in that payload.If there is no payloadContents link, then it is assumed that all the contents of the file are in the ExchangePayload. Under this circumstance, more than one ExchangePayload would be an error. The payloadContents link will usually refer to a named graph, but it can also be used to refer to individual rdf:Statements and rdfs:Resources."
+	},
+	{
+	  "ies:payloadLabel": "A mandatory link from an ExchangePayload to the SecurityLabel that provides the default access control for all statements in the payload.Note: individual statements may deviate from the default by applying their own SecurityLabels"
+	},
+	{
+	  "ies:PaymentArtefact": "An Asset that is means of payment"
+	},
+	{
+	  "ies:paymentArtefactProvider": "The Organisation that provided the PaymentArtefact"
+	},
+	{
+	  "ies:PeaceTreaty": "A Treaty that formalises the end of hostilities in a War"
+	},
+	{
+	  "ies:PeriodOfTime": "A PeriodOfTime is an Element whose spatial extent is everywhere, but whose temporal extent is limited. "
+	},
+	{
+	  "ies:permittedNationality": "The nationalities of those who are permitted to access the item. See the EDH specification for further details.Allowable Values:See EDH Standard"
+	},
+	{
+	  "ies:permittedOrganisation": "The organisations who are permitted to access the item. See the EDH specification for further details.Allowable Values:See EDH Standard"
+	},
+	{
+	  "ies:Perpetrator": "An Actor where the ResponsibleActor conducts a CriminalActivity"
+	},
+	{
+	  "ies:Person": "A human being, living or dead. This also includes what may appear to be a person, but is in fact an Alias"
+	},
+	{
+	  "ies:PersonalRadioHandset": "A CommunicationsDevice for portable radio communications - e.g. a walkie-talkie"
+	},
+	{
+	  "ies:PersonHeight": "The Length that is the height of a PersonState"
+	},
+	{
+	  "ies:PersonInCommunication": "A PersonState (and an EventParticipant) when a Person is involved in communicating. "
+	},
+	{
+	  "ies:PersonInTransit": "An EntityInTransit where the Entity is a Person"
+	},
+	{
+	  "ies:PersonName": "A Name used to identify / refer to a PersonNote: this is the full name as known to the organisation managing the NamingScheme. For first names, surnames, etc. use a subtype of PersonNameA PersonName may be composed of Surname, GivenName, etc. using the inRepresentation relationship"
+	},
+	{
+	  "ies:PersonState": "A temporal state of a Person"
+	},
+	{
+	  "ies:PersonTitle": "The title associated with the name of the person."
+	},
+	{
+	  "ies:PlaceName": "A Name that is used to refer to a Location.Note:  the naming pattern is used here as different parties (even standards bodies !) may have different names for the same Location"
+	},
+	{
+	  "ies:PointOnEarthSurface": "A Location that is a point (mathematically speaking, of vanishing area) on the surface of the WGS84 spheroid"
+	},
+	{
+	  "ies:PolicyAnnouncement": "A PoliticalAnnouncement about policy"
+	},
+	{
+	  "ies:PoliticalAgreement": "A PoliticalEvent that is also an EndToEndAgreementNote: was called Agreement in IES 3.x, but that was confusing for business agreements, personal agreements, etc."
+	},
+	{
+	  "ies:PoliticalAnnouncement": "A PoliticalEvent where information is released to the publicNote: was called Announcement in IES 3.x, but that was confusing for business announcements , personal announcements , etc."
+	},
+	{
+	  "ies:PoliticalEvent": "An Event related to democratic processes or party politics"
+	},
+	{
+	  "ies:Port": "A Facility which is a recognised terminus for international travel"
+	},
+	{
+	  "ies:PossibleWorld": "An Element that encompasses a number of Events, Entities and States that may occur / have occurred. A PossibleWorld is used for scenario planning and forensics.  This is a very simple placeholder for an area of IES that is likely to grow in the future. For now, it can be used to group together a number of elements (using isPartOf relationship) to assert that they share the same truth - i.e. in one possible scenario, all of them were true. The same Element may exist in more than one PossibleWorld - i.e. scenarios may share elements. For version 4.1.0 of IES, PossibleWorld is to be used with AssessToBeTrue in order to specify a level of confidence or probability. More work is needed on this in later IES versions. "
+	},
+	{
+	  "ies:Post": "A part of an Organisation that has particular responsibilities"
+	},
+	{
+	  "ies:PostalCode": "A GeoIdentity used to (partially) identify and address"
+	},
+	{
+	  "ies:postModificationState": "A partOf relationship to indicate a State of an Entity just after the Modify eventNote: For BORO purists, this means the post State is part of the Modify Event (i.e. the extent of the Modify Event includes the State)"
+	},
+	{
+	  "ies:PostState": "A temporal state of a Post"
+	},
+	{
+	  "ies:powertype": "An rdf:type relationship that asserts one Class is the powerset of the other (see Cantors theorem)."
+	},
+	{
+	  "ies:preModificationState": "A partOf relationship to indicate a State of an Entity just prior to the Modify eventNote: For BORO purists, this means the pre State is part of the Modify Event (i.e. the extent of the Modify Event includes the State)"
+	},
+	{
+	  "ies:Presence": "An EventParticipant where an Entity is CoLocated with other Entities of interest"
+	},
+	{
+	  "ies:Prisoner": "A persons role when incarcerated"
+	},
+	{
+	  "ies:Prosecution": "A LawEnforcement Event that is the trial of a suspect"
+	},
+	{
+	  "ies:Prosecutor": "A persons role as a prosecutor in a trial"
+	},
+	{
+	  "ies:protectiveMarking": "The classification applied to the respective item. This is equivalent to the Classification field within the EDHAllowable Values:OFFICIALOFFICIAL-SENSITIVESECRETTOP SECRET"
+	},
+	{
+	  "ies:publicationDate": "The date of publication of the respective document."
+	},
+	{
+	  "ies:Purchase": "A TradeEvent where an Entity is bought"
+	},
+	{
+	  "ies:Purchaser": "An EventParticipant where a ResponsibleActor participates in a TradeEvent as a purchaserNote: in the case of a RequestForQuotation, the purchaser is the person or organisation issuing the RfQNote: in the case of an online purchase where the buyer is unknown, the participant may be an OnlineIdentifier"
+	},
+	{
+	  "ies:quantityDelivered": "The number of Entities (of the same type) that were delivered"
+	},
+	{
+	  "ies:quantityOffered": "The number of Entities (of the same type) that are being offered for sale"
+	},
+	{
+	  "ies:quantityPurchased": "The number of Entities (of the same type) that were purchased"
+	},
+	{
+	  "ies:radioCoverage": "A relationship linking a RadioMast to its RadioCoverageArea"
+	},
+	{
+	  "ies:RadioCoverageArea": "A Location whose area is that in which a RadioMast hast viable communications coverage.Note: The RadioMast itself may not be part of this area, as often the immediate area around the base of a RadioMast is a deadspot. Note: Most radio area coverage is complex in shape, and the preferred representation in IES4 is GeoJSON. No attempt is made here to differentiate between signal strength zones. To do this, create multople RadioCoverAreas for the same RadioMast and label them appropriately. "
+	},
+	{
+	  "ies:RadioMast": "An Device that is placed in a Location to provide either a link from a wired to wireless connection, or to relay between two wireless endpoints."
+	},
+	{
+	  "ies:Ratification": "An AgreementStage where parties have arrived at a consensus and approve the agreement"
+	},
+	{
+	  "ies:RealEstate": "A Location (and an Asset) that has been defined or constructed for the purpose of ownership"
+	},
+	{
+	  "ies:ReceivingAccount": "An EventParticipant where a FinancialAccount receives money"
+	},
+	{
+	  "ies:Recipient": "An PartyInCommunication where the communicating party is the recipient of a message"
+	},
+	{
+	  "ies:Reconnaisance": "An IntelligenceOperation where an Entity or Event is observed for the purposes of planning"
+	},
+	{
+	  "ies:recurrentPeriodRepresentation": "A modified ISO8601 format (hence use of xsd:string) where elements of the time/date are blanked with ?? characters. The purpose of this is to be able to specify e.g.  a time of day with no date - i.e. all recurrences of that time of day."
+	},
+	{
+	  "ies:RecurringPeriod": "A PeriodOfTime that is composed of regularly recurring periods of time.ISO8601 is used to represent these periods (recurrentPeriod property), using the blanking technique (e.g. blanking the date to give a daily time). The recurrence can be limited using the recurringFrom and recurringUntil properties Examples:Every Tuesday from 28th August 2018 to 2 October 201813:00 to 14:00 on every day from 27th June 2016 to 2 October 2024"
+	},
+	{
+	  "ies:ReferenceNumber": "An Identifier used to uniquely identity a document."
+	},
+	{
+	  "ies:RegionalConstituency": "The people residing (or entitled to reside / vote in) a particular Location."
+	},
+	{
+	  "ies:regionCountry": "An inLocation relationship to indicate a RegionOfCountry is in a Country"
+	},
+	{
+	  "ies:RegionOfCountry": "A Location that is a general subdivision of a Countrye.g. cities, towns, counties, states, etc."
+	},
+	{
+	  "ies:RegionOfWorld": "A Location that is a general subdivision of the world - e.g. continents, sub-continents, economic areas, etc.Regions of the world may sometimes be spatially separated (e.g. economic areas)"
+	},
+	{
+	  "ies:RegistrationNumber": "The registration number for the respective Vehicle (with or without spaces).For road vehicles this is often referred to as the VRN (vehicle registration number).For aircraft the tail number is often used as a means of identification and/or registration."
+	},
+	{
+	  "ies:relationship": "A relationship represents an association between two Entities"
+	},
+	{
+	  "ies:Religion": "An Entity whose extent is all the people (PersonState) who share the same belief.Religions may be part of other religions - e.g. Christianity being made up of Catholic, Protestant, Orthodox, etc. 1. The religion \u00ebpracticed\u00ed by the respective Person..2. The religion may be qualified to identity a particular sect.3. The Metropolitan Police standard [F] shall be used as the reference data standard"
+	},
+	{
+	  "ies:ReligionState": "A temporal state of an Religion"
+	},
+	{
+	  "ies:ReligiousOrganisation": "An Organisation formed around a particular religious belief"
+	},
+	{
+	  "ies:RentalAgreement": "An EndToEndAgreement where one Party rents an Entity to another"
+	},
+	{
+	  "ies:RentalProvider": "A PartyToAgreement where a ResponsibleActor provides an Entity to rent"
+	},
+	{
+	  "ies:Rented": "An EventParticipant where an Entity is rented"
+	},
+	{
+	  "ies:Renter": "A PartyToAgreement where a ResponsibleActor rents an Entity from another party"
+	},
+	{
+	  "ies:Report": "A WorkOfDocumentation that offers one or more persons view on a particular topic. "
+	},
+	{
+	  "ies:Representation": "An ClassOfEntity whose instances are representations of things in the real worldExamples:* an identifier used for a Person* a document (though not an individual copy of a document)"
+	},
+	{
+	  "ies:representationValue": "The examplar text, number, etc. of a Representation"
+	},
+	{
+	  "ies:RequestDocument": "A WorkOfDocumentation that requests permission"
+	},
+	{
+	  "ies:requestedActivityType": "A relationship linking an AuthorisationRequest to a AuthorisedEventClass that the request requires authorisation to do.For example, someone making request authorisation to travel"
+	},
+	{
+	  "ies:RequestForQuotation": "A TradeEvent where one or more Entities are is required"
+	},
+	{
+	  "ies:Reservation": "Rights where the rights holder has reserved some future event - e.g. hotel reservation, travel reservation, delivery, etc."
+	},
+	{
+	  "ies:residesIn": "A Relationship between a ResponsibleActorState and a Location at which they registered as a resident.Note this is legal / administrative construct. See also StaysAt"
+	},
+	{
+	  "ies:respectfulOf": "A Relationship between two ResponsibleActor Entities where one respects the other.Note: this should not be considered a bi-directional relationship. Just because one person respects another person does not necessarily mean the feeling is reciprocated. "
+	},
+	{
+	  "ies:ResponsibleActor": "An Actor that can be held legally responsible for their actions - generally a Person or an Organisation. This also includes Posts which may be filled by people or organisations.Note: there are many situations (mostly due to the law) where a Person or Organisation can be the subject of a relationship or Event interchangeably. Hence the need for a parent class in the IES ontology. "
+	},
+	{
+	  "ies:Retailer": "An EventParticipant where a ResponsibleActor participates in a TradeEvent as a retailer"
+	},
+	{
+	  "ies:Rights": "An Asset which encompasses the legal rights to an Element Strictly speaking, all property (therefore most Assets) are a question of rights. No-one actually owns something, they have a legal right of that thing. In most cases, we can deal with this just using Asset. However in more complex cases, rights can be bought and sold (and of course owned) to things which arent generally viewed as assets - e.g. paying a delivery cost, owning the leasehold to a property, etc. Examples:* The performance rights to a Song* The rights to purchase currency at a pre-agreed rate in the future"
+	},
+	{
+	  "ies:rightsTo": "A Relationship between Rights and the Element to which the Rights apply Example:* Rights to travel on a particular service (a travel reservation)* Rights to a parcel of land"
+	},
+	{
+	  "ies:RoadVehicle": "A Vehicle that travels by road (surprisingly enough)"
+	},
+	{
+	  "ies:Role": "An ClassOfState that is the role an Entity has in context (as part of) an Element- e.g. Manager, "
+	},
+	{
+	  "ies:RoomNumber": "A GeoIdentity used to identify a PartOfFacility"
+	},
+	{
+	  "ies:Sailing": "A TravelService by sea"
+	},
+	{
+	  "ies:SatellitePhoneHandset": "A CommunicationsDevice that communicates via satellite. "
+	},
+	{
+	  "ies:scheduledArrivalPort": "The Port from which the TravelService is scheduled to arrive"
+	},
+	{
+	  "ies:scheduledArrivalTime": "The date/time on which the service was scheduled to arriveThe format of this attribute is a restricted string based upon the ISO 8601 Extended Format."
+	},
+	{
+	  "ies:scheduledDeparturePort": "The Port from which the TravelService is scheduled to depart"
+	},
+	{
+	  "ies:scheduledDepartureTime": "The date/time on which the service was scheduled to departThe format of this attribute is a restricted string based upon the ISO 8601 Extended Format."
+	},
+	{
+	  "ies:SchemaObject": "A DataObject that is a standardised plan or outline for something.e.g. Bristol City Street Furniture Schema"
+	},
+	{
+	  "ies:schemeMasteredIn": "A relationship that asserts a NamingScheme is owned by a System that is the master for its names / identifiers - i.e. the uniqueness of the name/identifier is limited to the system."
+	},
+	{
+	  "ies:schemeOwner": "A relationship that asserts a RepresentationScheme is governed and used by a ResponsibleActor "
+	},
+	{
+	  "ies:ScreenName": "A display Name used by the account which may be non-unique, and may not be the same as the username"
+	},
+	{
+	  "ies:SeatNumber": "The number of the seat that the Passenger should be travelling in. Whilst this partially identifies the Passenger, there is no guarantee that people have not swapped seats. "
+	},
+	{
+	  "ies:SecurityLabel": "A SecurityLabel may be assigned at the statement (triple) level or to the entire ExchangePayload. They provide a mechanism to specify access restrictions and handling instructions for specific triples.Note: In any given IES exchange, a SecurityLabel must be applied to the ExchangePayload. Individual SecurityLabels at the statement level are used to indicate where individual statements deviate from the overall payload SecurityLabel"
+	},
+	{
+	  "ies:Sender": "An PartyInCommunication where the communicating party is the sender of a message"
+	},
+	{
+	  "ies:SendingAccount": "An EventParticipant where a FinancialAccount sends money"
+	},
+	{
+	  "ies:SerialNumber": "An Identifier for Device that has been assigned at manufacture.Example Value:123ABC456DEF"
+	},
+	{
+	  "ies:ServiceName": "The Name of the OnlineServiceThis should not be confused with a webpage (see the Webpage entity type). The Online Service may be provided via a webpage."
+	},
+	{
+	  "ies:ServiceProvider": "The role of an Organisation in providing a Service (e.g. a TeleConference)"
+	},
+	{
+	  "ies:Ship": "A Vehicle that travels on water"
+	},
+	{
+	  "ies:siblingOf": "A Relationship between two Person Entities that indicates one is the sibling of the other"
+	},
+	{
+	  "ies:Signatory": "An EventParticipant where a ResponsibleActor ratifies an agreement"
+	},
+	{
+	  "ies:SIMCard": "A CommunicationsDevice that holds data about a IMSI"
+	},
+	{
+	  "ies:SimilarEntities": "An ClassOfEntity whose instances are considered similar"
+	},
+	{
+	  "ies:similarEntity": "An rdf:type relationship that asserts an Entity is similar to other Entities that are also related to the same SimilarEntities class."
+	},
+	{
+	  "ies:SMS": "A Message (text and images) sent over a cellular network"
+	},
+	{
+	  "ies:socialisesAt": "A visits relationship between a ResponsibleActor and a Location they socialise in.Note: more often than not, this will be a statement of occasional socialising, so the instance of the ResponsibleActorState should also be an instance of DiscontinuousState. In rarer occasions, it may be used to highlight a single, continuous visit, but in that case, inLocation would generally be used."
+	},
+	{
+	  "ies:SocialMediaPage": "An OnlineArtefact that is user-created - e.g. a facebook timeline, twitter feed, etc. "
+	},
+	{
+	  "ies:SocialMediaPost": "An OnlineArtefact that is part of a SocialMediaPageNote: the content may be created by a different account to the one which created the SocialMediaPage"
+	},
+	{
+	  "ies:SocialServicesIdentifier": "An NationalIdentityNumber used for managing a citizens access to social servicesIn UK, this would be an NI number, in the US, it would be the social security number"
+	},
+	{
+	  "ies:Software": "A ClassOfAsset that is programmatic instructions that control or affect the behaviour of an Asset (usually a Device). Note that Software is a class, as the same Software may be installed in multiple locations."
+	},
+	{
+	  "ies:spokenLanguage": "The language in which someone is proficient"
+	},
+	{
+	  "ies:Stalking": "A CriminalActivity involving the malicious surveillance of a person, often in threatening manner"
+	},
+	{
+	  "ies:StandardMeasure": "A Measure specified in the International system of quantities"
+	},
+	{
+	  "ies:StandardMeasureValue": "A MeasureValue that is expressed in SI units"
+	},
+	{
+	  "ies:startsIn": "An xsd:DateTime for the start of the period"
+	},
+	{
+	  "ies:State": "A temporal state of an ElementNote: IES requires that any State must be related to its whole-life Element. In some cases, the identity of the whole-life element may be unknown (or of unknown type) but a whole-life element must still be created and related to the State.Note: When Events are decomposed into temporal parts, those parts are often Events themselves. The exception is when the temporal part is arbitrary (e.g. the 11th second of a meeting) when a State should be used. These are rare though."
+	},
+	{
+	  "ies:statementLabel": "A link from an rdf:Statement (see W3C guidance on RDF reification) to the SecurityLabel that provides the access control for that statement.Note: All exchanges should have a default payloadLabel specified. The use of statementLabel is required when individual statements deviate from the default in terms of their access control."
+	},
+	{
+	  "ies:staysAt": "A visits relationship between a ResponsibleActor and a Location where the person stays at the Location. This should not be confused with residesIn which is an assertion of legal residence. Note: more often than not, this will be a statement of regular/occasional stays, so the instance of the ResponsibleActorState should also be an instance of DiscontinuousState. In rarer occasions, it may be used to highlight a single, continuous visit, but in that case, inLocation would generally be used."
+	},
+	{
+	  "ies:StoreCard": "A PaymentArtefact issued by a retail Organisation that can only be used to pay for items supplied by that Organisation. "
+	},
+	{
+	  "ies:storedIn": "A Relationship between an AssetState and a Location where the Asset is/was stored"
+	},
+	{
+	  "ies:strengthOfInterest": "StrengthOfInterest is used in its most general sense and is limited to the following values:\u2211 Weak\u2211 Strong\u2211 Fanatical"
+	},
+	{
+	  "ies:SubjectOfInterest": "A State during which an Element is of interest to an investigation"
+	},
+	{
+	  "ies:SubjectOfOperation": "An EventParticipant where an Entity is the subject of an OperationalEventExamples:* person / organisation under investigation* recond location* subject of surveillance"
+	},
+	{
+	  "ies:successorTo": "An after relationship linking two Elements where one ends and the other comes after as a replacement"
+	},
+	{
+	  "ies:Summit": "A PoliticalEvent where senior leaders assemble to discuss and agree policy or treaties"
+	},
+	{
+	  "ies:Supplier": "An EventParticipant where a ResponsibleActor participates in a TradeEvent as a supplier"
+	},
+	{
+	  "ies:supplierTo": "A worksFor relationship where the supplier (domain) is contracted to deliver goods or services to client (range)"
+	},
+	{
+	  "ies:Surname": "A PersonName that is their inherited or married nameNote:A surname will often be applied to a State of the Person, as names tend to change over time"
+	},
+	{
+	  "ies:Surveillance": "An IntelligenceOperation that involves the continued observation of a Person or Location"
+	},
+	{
+	  "ies:SurveillanceWarrant": "Relates a Surveillance Event to a Document that is the warrant for the Surveillance"
+	},
+	{
+	  "ies:System": "An Device  comprising software and hardware brought together for a purpose. The Devices may or may not be removable / replaceable"
+	},
+	{
+	  "ies:SystemState": "A temporal state of a System"
+	},
+	{
+	  "ies:takesplaceIn": "An inLocation relationship to indicate an EventParticipant takes place within a Location"
+	},
+	{
+	  "ies:TargetLocation": "Relates an MilitaryAttack to the location specified for the attack"
+	},
+	{
+	  "ies:Team": "An Organisation formed around a particular pursuit or task"
+	},
+	{
+	  "ies:TeleConference": "An InteractiveCommunication where 2 or more parties communicate using audio"
+	},
+	{
+	  "ies:TelephoneAccount": "A CommunicationsAccount that is used to administer the use of one or more telephone numbers."
+	},
+	{
+	  "ies:TelephoneCountryCode": "The dialing code for a country as specified by the ITU"
+	},
+	{
+	  "ies:TelephoneNumber": "A CommunicationsIdentifier that enables calls to be directed to particular handset"
+	},
+	{
+	  "ies:TelephoneNumberRange": "A CommunicationsIdentifierRange of TelehoneNumbers"
+	},
+	{
+	  "ies:Temperature": "The Measure of the thermodynamic temperature of an Element"
+	},
+	{
+	  "ies:Tendency": "A DispositionalClass where all the instances share the same tendencyExample: People who tend to violence"
+	},
+	{
+	  "ies:TerrorAttack": "A CriminalActivity that is politically motivated and designed to cause terror"
+	},
+	{
+	  "ies:TerroristOrganisation": "An OrganisationState that is assessed to be conducting acts of terror to achieve a political or religious goal."
+	},
+	{
+	  "ies:TheatreTicket": "An EntertainmentTicket for a theatre show"
+	},
+	{
+	  "ies:Ticket": "Documented authority (paid-for or otherwise) entitling the bearer to some specified activity."
+	},
+	{
+	  "ies:ticketArrivalLocation": "The arrival location as stated on the ticket."
+	},
+	{
+	  "ies:ticketDepartureLocation": "The departure location as stated on the ticket."
+	},
+	{
+	  "ies:TicketUsedInCheckIn": "An EventParticipant where a Ricket is used in a CheckIn evente.g. a London Underground ticket being used at a barrier, or a concert ticket being scanned on arrival at the venue"
+	},
+	{
+	  "ies:TimeBoundedClass": "A ClassOfElement whose instances all begin and end within the bounds specified for the Class. In other words, a class that is defined by the temporal extent of its members. Note, if either the begin or end bound are missing, it is taken to be indeterminate. For example, if the begin bound is 1st Jan 2018, the class has instances that all started after that date, and their end is irrelevant. Example:Everything that began and ended in the year 1900 - this would include all activities that took place within that year (but did not extend beyond it), everything created and destroyed within that time, and everything that was born and died during the period. "
+	},
+	{
+	  "ies:Title": "The title of the respective document."
+	},
+	{
+	  "ies:TOID": "TOIDs (TOpographic IDentifiers) are unique and persistent identifiers created and managed by Ordnance Survey Great Britain to identify topographic objects in OS datasets. Example: the TOID for the Tower of London is osgb1000006032892."
+	},
+	{
+	  "ies:TradeAgreement": "A PoliticalAgreement that sets tariffs and standards for trade between nations. "
+	},
+	{
+	  "ies:TradedAsset": "An EventParticipant where an Asset is participant in a TradeEventThis could be a specific Asset (e.g. serial numbered item) being offered for sale (as opposed to a type of Asset) or an Asset being delivered, withdrawn from sale, etc."
+	},
+	{
+	  "ies:tradedItemType": "The type of entity involved in the TradeEvente.g. Dyson Animal Mk3Note: there may be no more than one itemType for a given TradeEvent - i.e. a new TradeEvent must be instantiated for each ClassOfEntity sold, offered, delivered, etc.Note: was ItemType in IES 3.2"
+	},
+	{
+	  "ies:TradeEvent": "An Event where something is offered, bought or exchanged"
+	},
+	{
+	  "ies:TrainTicket": "A Ticket that is used to travel by rail"
+	},
+	{
+	  "ies:TrainTravel": "A TravelService by rail"
+	},
+	{
+	  "ies:transferType": "An rdf:type relationship from a MoneyTransfer to a ClassOfMoneyTransfer"
+	},
+	{
+	  "ies:transferValue": "A relationship from a MoneyTransfer to the AmountOfMoney transferred."
+	},
+	{
+	  "ies:Transit": "A Movement that is an individual transportation - e.g. an individual flight, sailing, etc."
+	},
+	{
+	  "ies:TravelBooking": "The Purchase of planned travel arrangements.3. Travel Bookings may include bookings for Flights, Ferry Crossings, Train Journeys (i.e Travel Services), and also Hotels, Hire Cars etc. when these have been modelled. These will be included on the booking as relationships to the appropriate other entities."
+	},
+	{
+	  "ies:TravelCard": "A PaymentArtefact that permits travel on public transport"
+	},
+	{
+	  "ies:TravelLeg": "An EventParticipant in which a Entity travels. That travel may be part of a Journey.The TravelLeg may be part of a Journey (i.e. the Journey has one of more legs)."
+	},
+	{
+	  "ies:TravelReservation": "A TradedAsset where the asset is a Reservation"
+	},
+	{
+	  "ies:TravelService": "A transportation service, often provided as a public service \u00f1 e.g. a scheduled flight, rail journey, ferry crossing, etc."
+	},
+	{
+	  "ies:TravelServiceIdentifier": "The Identifier for the respective Travel Service \u00f1 this is how humans would usually refer to the service Note however that often this identifier does not, on its own, uniquely identify any given instance of a travel service \u00f1 e.g. Flight BA0010 is reused on a daily basis to refer to the flight between London Heathrow and Los Angeles. As such, to uniquely identify any given instance of a Travel Service you would need to combine it with other attributes \u00f1 typically departure date/time.For Flights, this will be the Flight Number.For Ferry Sailings this is typically the name of the vessel that is scheduled to make that sailing and, when combined with the departure date/time can be used to uniquely identify that sailing. Note that if the actual vessel that makes the sailing is different to that which was scheduled (e.g. as result of the scheduled vessel being out of commission), this identifier is not modified."
+	},
+	{
+	  "ies:TravelTicket": "A Ticket that permits travel on a particular route or set of routes"
+	},
+	{
+	  "ies:TravelVisa": "An IdentityDocument, usually attached to a Passport, which allows a Person to remain in a Country for a set period of time. "
+	},
+	{
+	  "ies:Treaty": "An EndToEndAgreement that is between Nations and subject to international law"
+	},
+	{
+	  "ies:trusts": "A Relationship between two ResponsibleActor Entities where one trusts the other.Note: this should not be considered a bi-directional relationship. Just because one person trusts another person does not necessarily mean the feeling is reciprocated. "
+	},
+	{
+	  "ies:typeOfCriminality": "A link to the ClassOfCriminalActivity conducted"
+	},
+	{
+	  "ies:typicallyTargets": "A relationship linking a ClassOfOperationalEvent to a ClassOfCriminalActivity where the operations are intended to counter or target certain criminal activities.Example: counter-narcotics operations typically target drug dealing"
+	},
+	{
+	  "ies:UN_LOCODE": "A GeoIdentity that is a United Nations Code for Trade and Transport Locations"
+	},
+	{
+	  "ies:UnitOfMeasure": "A ClassOfMeasureValue that is used to quantify a Measure on a standard scale"
+	},
+	{
+	  "ies:UpdateAccount": "An AccountAdminEvent where an Account is modified"
+	},
+	{
+	  "ies:upperBound": "A relationship a MeasureRange to the Measure that is its upper bound"
+	},
+	{
+	  "ies:uriScheme": "URI scheme is the top level of the uniform resource identifier (URI) naming structure. All URIs and absolute URI references are formed with a scheme name, followed by a colon character (:), and the remainder of the URI called the scheme-specific part."
+	},
+	{
+	  "ies:uriSchemeName": "URI scheme is the top level of the uniform resource identifier (URI) naming structure. All URIs and absolute URI references are formed with a scheme name, followed by a colon character (:), and the remainder of the URI called the scheme-specific part.A list of official IANA-registered URI schemes can be found at:http://en.wikipedia.org/wiki/URI_scheme#Official_IANAregistered_schemes"
+	},
+	{
+	  "ies:URL": "An Identifier for a WebResource"
+	},
+	{
+	  "ies:Username": "The Identity for an account registered with an internet-based service.An email address can be used as an online identifier for a specific domain (like Facebook). Where this is the case it can be considered to be both an instance of an email address and an instance of a username for an online identity."
+	},
+	{
+	  "ies:userOf": "A hasAccessTo relationship between a ResponsibleActor and an Asset they use.Note: more often than not, this will be a statement of occasional use, so the instance of the ResponsibleActorState should also be an instance of DiscontinuousState. In rarer occasions, it may be used to highlight a single, continuous use, but generally this would be modelled with the appropriate type of Event and EventParticipants"
+	},
+	{
+	  "ies:usesServicesAt": "A visits relationship between a ResponsibleActor and a Location where they use services - e.g. banking, shopping, etc..Note: more often than not, this will be a statement of regular/occasional use, so the instance of the ResponsibleActorState should also be an instance of DiscontinuousState. In rarer occasions, it may be used to highlight a single, continuous visit, but in that case, inLocation would generally be used."
+	},
+	{
+	  "ies:UsuallyParked": "A temporal state of a Vehicle which is the fusion of all its Parked statesExamples:* A car that is usually parked in Acacia Avenue* A ship that regularly docks at Dover* An aircraft that regularly resides in a private hangar"
+	},
+	{
+	  "ies:vafNumber": "The Visa Application Form (VAF) number."
+	},
+	{
+	  "ies:validFromDate": "The date that the respective IdentityDocument or Ticket is valid from."
+	},
+	{
+	  "ies:validToDate": "The date that the respective IdentityDocument or Ticket is valid to."
+	},
+	{
+	  "ies:ValueInAmperes": "A StandardMeasureValue for ElectricCurrent in amperes"
+	},
+	{
+	  "ies:ValueInCandela": "A StandardMeasureValue for LuminousIntensity in candela"
+	},
+	{
+	  "ies:ValueInKelvin": "A StandardMeasureValue for Temperature in kelvin"
+	},
+	{
+	  "ies:ValueInKilograms": "A StandardMeasureValue for Mass in kilograms"
+	},
+	{
+	  "ies:ValueInMetres": "A StandardMeasureValue for Length in metres"
+	},
+	{
+	  "ies:ValueInMoles": "A StandardMeasureValue for AmountOfSubstance in moles"
+	},
+	{
+	  "ies:ValueInSeconds": "A StandardMeasureValue for Duration in seconds"
+	},
+	{
+	  "ies:Vehicle": "An Asset that is a means of transportation \u00f1 e.g. car, aircraft, ship."
+	},
+	{
+	  "ies:VehicleController": "A PersonInTransit where the Person is in control of the Transite.g. driver of a car, pilot of plane, captain of a ship"
+	},
+	{
+	  "ies:VehicleIdentificationNumber": "VIN \u00f1 Vehicle Identification Number.For road vehicles this is often directly referred to as the VIN, but this can also be applied in a generic fashion to other vehicle types.ISO 3833 for road vehicles (17-digits)"
+	},
+	{
+	  "ies:VehicleName": "The Name of the respective Vehicle (if applicable) \u00f1 often this only applies to ships/boats. Examples:The Saucy SueThe Bountiful Blumpkin"
+	},
+	{
+	  "ies:VehicleState": "A temporal state of a Vehicle"
+	},
+	{
+	  "ies:VehicleUsed": "An EventParticipant in which a Vehicle is used to transport Entities"
+	},
+	{
+	  "ies:venueStatedOnTicket": "The venue of the event the Ticket is for.Note: venues change, and the actual event may not run at the stated venue. "
+	},
+	{
+	  "ies:VersionNumber": "The number or code that identifies a VersionOfDocument."
+	},
+	{
+	  "ies:versionOf": "A relationship between a VersionOfDocument and the WorkOfDocumentation it is a version of."
+	},
+	{
+	  "ies:VersionOfDocument": "A WorkOfDocumentation and a TimeBoundedClass that is a versionOf a WorkOfDocumentation"
+	},
+	{
+	  "ies:Victim": "An EventParticipant where a ResponsibleActor is the victim of a CriminalActivity"
+	},
+	{
+	  "ies:VideoConference": "A TeleConference where parties communicate over video (with audio)"
+	},
+	{
+	  "ies:visaType": "The type of the TravelVisaExamples:B1/B2VISA TIER 4"
+	},
+	{
+	  "ies:visits": "A Relationship and in inLocation between a ResponsibleActor and a Location they visit.Note: more often than not, this will be a statement of occasional visiting, so the instance of the ResponsibleActorState should also be an instance of DiscontinuousState. In rarer occasions, it may be used to highlight a single, continuous visit, but in that case, inLocation would generally be used."
+	},
+	{
+	  "ies:VoiceCall": "An InteractiveCommunication by voice"
+	},
+	{
+	  "ies:VoipAccount": "A TelephoneAccount where the voice communication is over IP. This may also include video communication, screen sharing, etc. "
+	},
+	{
+	  "ies:VotingAttendee": "When a Government has voting rights at a Summit"
+	},
+	{
+	  "ies:War": "A Disagreement where at least one party has declared war"
+	},
+	{
+	  "ies:Warrant": "An AuthorisationDocument that provides legal permission, usually for something that would be considered illegal or intrusive otherwise"
+	},
+	{
+	  "ies:Warrantry": "An EndToEndAuthorisation where the process involves legal warrants. "
+	},
+	{
+	  "ies:wasAuthorisedBy": "A relationship to the Organisation that was the authorising agency for the IdentityDocument"
+	},
+	{
+	  "ies:WeaponLocation": "Relates an MilitaryAttack to the location of the attacking weapon system"
+	},
+	{
+	  "ies:Webpage": "An OnlineArtefact that is a page on the web."
+	},
+	{
+	  "ies:WebResource": "Any http presence on the web"
+	},
+	{
+	  "ies:WebResourceState": "A temporal state of an WebResource"
+	},
+	{
+	  "ies:What3words": "A GeoIdentity that is a what3words Location specifier(see what3words.com)"
+	},
+	{
+	  "ies:WinningCandidate": "The Person who won the Election"
+	},
+	{
+	  "ies:WithdrawFromSale": "A TradeEvent where a type of entity is withdrawn from sale"
+	},
+	{
+	  "ies:Witness": "A Persons role as a witness in a trial"
+	},
+	{
+	  "ies:WorkOfDocumentation": "A Representation that is the general case of a document - i.e. War and Peace as opposed to My copy of War and Peace"
+	},
+	{
+	  "ies:worksAt": "A visits relationship between a ResponsibleActor and a Location they work in.Note: more often than not, this will be a statement of occasional presence, so the instance of the ResponsibleActorState should also be an instance of DiscontinuousState. In rarer occasions, it may be used to highlight a single, continuous presence, but in that case, inLocation would generally be used."
+	},
+	{
+	  "ies:worksFor": "A Relationship between a ResponsibleActor (range - employer) and a ResponsibleActorState (domain- employed) that indicates one works for the other.In the case where the work is occasional / ad-hoc (i.e. there isnt an ongoing work contract) then the instance of the ResponsibleActorState should also be an instance of DiscontinuousState"
+	},
+	{
+	  "ies:worksWith": "A Relationship between two ResponsibleActor Entities that indicates one works with the other.In the case where the work is occasional / ad-hoc (i.e. there isnt an ongoing job) then the instance of the ResponsibleActorState should also be an instance of DiscontinuousStateNote: this relationship should only be used when it is not known who the two people work for (in which case create an organisation and used employedBy) or when the working relationship is rather loose - e.g. in cases of criminal cooperation."
+	},
+	{
+	  "ies:worshipsAt": "A visits relationship between a ResponsibleActor and a Location where they undertake religious worshipNote: more often than not, this will be a statement of regular/occasional worship, so the instance of the ResponsibleActorState should also be an instance of DiscontinuousState. In rarer occasions, it may be used to highlight a single, continuous visit, but in that case, inLocation would generally be used."
+	}
+  ]

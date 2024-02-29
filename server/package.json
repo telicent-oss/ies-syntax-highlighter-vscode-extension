@@ -1,0 +1,19 @@
+{
+	"name": "ies-syntax-highlighter-server",
+	"description": "Server component of IES language server for vscode.",
+	"version": "1.0.0",
+	"author": "Telicent Ltd",
+	"license": "Apache-2.0",
+	"engines": {
+		"node": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Telicent-io/ies-ext"
+	},
+	"dependencies": {
+		"vscode-languageserver": "^7.0.0",
+		"vscode-languageserver-textdocument": "^1.0.1"
+	},
+	"scripts": {}
+}
