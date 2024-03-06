@@ -1,6 +1,6 @@
 {
   "name": "ies-syntax-highlighter",
-  "description": "An IES language server + themes extension for ttl files.",
+  "description": "Visual Studio Code syntax highlighting for RDF which utilises IES classes and resources, to help you write and interpret IES RDF.",
   "author": "Telicent Ltd",
   "license": "Apache-2.0",
   "version": "1.0.0",
