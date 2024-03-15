@@ -38,8 +38,10 @@ In VSCode:
 
 4. Navigate to the downloaded release file (step 1) and select it.
 
-5. Select theme IES Highlighter dark+ default `Cmd/Ctrl + k` then `Cmd/Ctrl + t`. Or go to the Extensions view -> ies-extension -> Set Colour Theme.
+5. Select theme IES Highlighter <sup>1</sup>dark+ default `Cmd/Ctrl + k` then `Cmd/Ctrl + t`. Or go to the Extensions view -> ies-extension -> Set Colour Theme.
 
+<sup>1</sup> **Note:** Syntax highlighting has not been optimized for "light" themes i.e. highlights `ies:` prefix as _white_
+ 
 The extension should now be activated when you open .ttl files.
 
 Additional, optional, steps **if you don't want to change themes** and still have colour highlighting:
