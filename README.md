@@ -28,7 +28,7 @@ Features:
 
 ## Install
 
-1. Download latest [/releases](/releases)
+1. Download latest [/releases](https://github.com/telicent-oss/ies-syntax-highlighter-vscode-extension/releases)
 
 In VSCode:
 
@@ -48,7 +48,7 @@ Additional, optional, steps **if you don't want to change themes** and still hav
 
 7. **Search settings** - In the Settings Search bar, type `editor.tokenColorCustomizations` and select `Edit in settings.json`
 
-8. **Append contents** - Use `Ctrl/Cmd + C` and then `Ctrl/Cmd + V` to copy and paste the contents of the file [main/for_settings.txt](/main/for_settings.txt) to the JSON in settings.
+8. **Append contents** - Use `Ctrl/Cmd + C` and then `Ctrl/Cmd + V` to copy and paste the contents of the file [main/for_settings.txt](https://raw.githubusercontent.com/telicent-oss/ies-syntax-highlighter-vscode-extension/main/for_settings.txt) to the JSON in settings.
 
 Further information on managing extensions in VS Code can be found on the [Microsoft VS Code Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-marketplace) page.
 
