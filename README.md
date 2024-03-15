@@ -5,7 +5,7 @@ A [Visual Studio Code](https://code.visualstudio.com) (VSCode) extension to help
 Features:
 <ul>
   <li>
-    <strong>Color highlighting</strong> - Highlights IES classes according to their defined colours<br>
+    <strong>Colour highlighting</strong> - Highlights IES classes according to their defined colours<br>
     <img src="./images/Overview.png" alt="Highlights IES classes according to their defined colours" style="height:300px">
   </li>
   <li>
