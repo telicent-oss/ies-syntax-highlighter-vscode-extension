@@ -6,19 +6,19 @@ Features:
 <ul>
   <li>
     <strong>Color highlighting</strong> - Highlights IES classes according to their defined colours<br>
-    <img src="./images/Overview.png" alt="colour highlighting screenshot" style="height:300px">
+    <img src="./images/Overview.png" alt="Highlights IES classes according to their defined colours" style="height:300px">
   </li>
   <li>
     <strong>Diagnostics</strong> - Syntax highlights missing commas, dots, semicolons<br>
-    <img src="./images/Diagnostics.png" alt="Syntax diagnostics screenshot">
+    <img src="./images/Diagnostics.png" alt="Syntax highlights missing commas, dots, semicolons">
   </li>
   <li>
     <strong>IES class suggestions</strong> - Suggests IES classes as you type<br>
-    <img src="./images/Suggestions.jpeg" alt="IES class suggestion screenshot" style="height:300px">
+    <img src="./images/Suggestions.jpeg" alt="Suggests IES classes as you type" style="height:300px">
   </li>
   <li>
-    <strong>On hover matches</strong> - Hover over a URI to reveal its type<br>
-    <img src="./images/OnHover.png" alt="On-hover IES type tracking">
+    <strong>On hover matches</strong> - Hover over a URI to reveal IES type<br>
+    <img src="./images/OnHover.png" alt="Hover over a URI to reveal IES type">
   </li>
 </ul>
 
