@@ -28,7 +28,7 @@ Features:
 
 ## Install
 
-1. Download latest [/releases](https://github.com/telicent-oss/ies-syntax-highlighter-vscode-extension/releases)
+1. Download latest [releases](https://github.com/telicent-oss/ies-syntax-highlighter-vscode-extension/releases)
 
 In VSCode:
 
