@@ -17,7 +17,7 @@ Features:
     <img src="./images/Suggestions.jpeg" alt="IES class suggestion screenshot" style="height:300px">
   </li>
   <li>
-    <strong>On hover matches</strong> - Hover-over a URI to reveal its type<br>
+    <strong>On hover matches</strong> - Hover over a URI to reveal its type<br>
     <img src="./images/OnHover.png" alt="On-hover IES type tracking">
   </li>
 </ul>
