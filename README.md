@@ -10,7 +10,7 @@ Features:
   </li>
   <li>
     <strong>Diagnostics</strong> - Syntax highlights missing commas, dots, semicolons<br>
-    <img src="./images/Diagnostics.png" alt="syntax diagnostics screenshot">
+    <img src="./images/Diagnostics.png" alt="Syntax diagnostics screenshot">
   </li>
   <li>
     <strong>IES class suggestions</strong> - Suggests IES classes as you type<br>
